@@ -3,6 +3,8 @@
 	padding: 0px;
 }
 @import "mixins";
+@import "mediaQueris.scss";
+
 $headingFont: 'Avenir';
 
 .topNav{
