@@ -24,6 +24,9 @@ $headingFont: 'Avenir';
 .sections{
 	@include sections;
 }
+.contact{
+
+}
 .logo{
 	height: 10%;
 	width: 10%;
@@ -49,6 +52,9 @@ h1{
 .bread{
 	font-family: $headingFont;
 	text-align: center;
+}
+.portrait{
+    
 }
 .compName{
 	@include compName;
