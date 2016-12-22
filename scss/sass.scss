@@ -24,20 +24,20 @@ $headingFont: 'Avenir';
 .sections{
 	@include sections;
 }
-<<<<<<< HEAD
-.contact{
-
-}
-=======
 .row{
   display: flex;
   flex-direction: row;
-  width: 100%;
-  color: blue;
-  background-color: red;
+  margin-bottom: 20px;
 }
 
->>>>>>> 368516b4bec8ab4f99de1219493c98c746054d41
+.service{
+  border-left: 2px solid #333333;
+}
+
+.service p{
+  margin: 0 2em 0 2em;
+}
+
 .logo{
 	height: 10%;
 	width: 10%;
@@ -63,9 +63,6 @@ h1{
 .bread{
 	font-family: $headingFont;
 	text-align: center;
-}
-.portrait{
-    
 }
 .compName{
 	@include compName;
