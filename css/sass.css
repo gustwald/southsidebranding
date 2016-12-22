@@ -39,12 +39,12 @@
   position: relative; }
 
 h1 {
-  font-family: 'Avenir';
+  font-family: "Avenir";
   text-align: center;
   padding: 3em 0 1em 0; }
 
 .bread {
-  font-family: 'Avenir';
+  font-family: "Avenir";
   text-align: center; }
 
 .compName {
