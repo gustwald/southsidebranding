@@ -45,6 +45,24 @@
   background-size: cover;
   position: relative; }
 
+.office {
+  background-image: url("../img/office3.jpg");
+  height: 10em;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; }
+
+.code {
+  background-image: url("../img/code.jpg");
+  height: 10em;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; }
+
 h1 {
   font-family: "Avenir";
   text-align: center;

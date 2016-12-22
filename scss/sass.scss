@@ -32,6 +32,14 @@ $headingFont: 'Avenir';
 	background-image: url("../img/mac.jpg");
     @include delimeters;
 }
+.office{
+    background-image: url("../img/office3.jpg");
+    @include delimeters;
+}
+.code{
+    background-image: url("../img/code.jpg");
+    @include delimeters;
+}
 
 h1{
 	font-family: $headingFont;
