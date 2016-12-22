@@ -30,12 +30,7 @@ $headingFont: 'Avenir';
 }
  .mac{
 	background-image: url("../img/mac.jpg");
-    height: 10em;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-	position: relative;
+    @include delimeters;
 }
 
 h1{
