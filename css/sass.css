@@ -42,10 +42,16 @@
   height: 100vh;
   width: 100%; }
 
+.row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  color: blue;
+  background-color: red; }
+
 .logo {
   height: 10%;
   width: 10%; }
-
 
 .mac {
   background-image: url("../img/mac.jpg");
