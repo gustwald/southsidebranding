@@ -24,9 +24,20 @@ $headingFont: 'Avenir';
 .sections{
 	@include sections;
 }
+<<<<<<< HEAD
 .contact{
 
 }
+=======
+.row{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  color: blue;
+  background-color: red;
+}
+
+>>>>>>> 368516b4bec8ab4f99de1219493c98c746054d41
 .logo{
 	height: 10%;
 	width: 10%;
