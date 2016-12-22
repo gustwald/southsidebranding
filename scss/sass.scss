@@ -24,6 +24,14 @@ $headingFont: 'Avenir';
 .sections{
 	@include sections;
 }
+.row{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  color: blue;
+  background-color: red;
+}
+
 .logo{
 	height: 10%;
 	width: 10%;
