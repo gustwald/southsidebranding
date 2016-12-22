@@ -2,6 +2,13 @@
   margin: 0px;
   padding: 0px; }
 
+@media screen and (max-width: 600px) {
+  .logo {
+    display: none; }
+
+  .navigation {
+    display: flex;
+    justify-content: center; } }
 .topNav {
   /*height: 10em;*/ }
 
@@ -103,12 +110,5 @@ li a:hover {
     -webkit-transform: translateY(-20px); }
   80% {
     -webkit-transform: translateY(-10px); } }
-@media screen and (max-width: 600px) {
-  .logo {
-    display: none; }
-
-  .navigation {
-    display: flex;
-    justify-content: center; } }
 
 /*# sourceMappingURL=sass.css.map */
