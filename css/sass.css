@@ -13,12 +13,24 @@
   .portrait {
     display: block;
     margin: 0 auto;
-    height: 12em;
-    width: 12em;
+    height: 6em;
+    width: 6em;
     border: 1px solid black;
-    border-radius: 100px;
     margin-bottom: 3em;
-    margin-top: 3em; } }
+    margin-top: 3em;
+    border-radius: 100px; }
+
+  .liam {
+    background-image: url("../img/krille.gif");
+    background-size: contain; }
+
+  .gustav {
+    background-image: url("../img/krille.gif");
+    background-size: contain; }
+
+  .martin {
+    background-image: url("../img/krille.gif");
+    background-size: contain; } }
 .topNav {
   /*height: 10em;*/ }
 
