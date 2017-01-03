@@ -7,6 +7,9 @@
 
 $headingFont: 'Avenir';
 
+html{
+  scroll-behavior: smooth;
+}
 .topNav{
   /*height: 10em;*/
 }
