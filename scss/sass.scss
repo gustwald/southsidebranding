@@ -1,6 +1,6 @@
 *{
-	margin: 0px;
-	padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 @import "mixins";
 @import "mediaQueris.scss";
@@ -8,107 +8,117 @@
 $headingFont: 'Avenir';
 
 .topNav{
-	/*height: 10em;*/
+  /*height: 10em;*/
 }
 .navigation{
-	
+
 }
 .landing{
-	background-image: url("../img/office2.jpg");
-	background-size: cover;
-	position: relative;
+  background-image: url("../img/office2.jpg");
+  background-size: cover;
+  position: relative;
 }
 .landing::after{
-    @include skew;
+  @include skew;
 }
 .sections{
-	@include sections;
+  @include sections;
 }
 .row{
+  padding-top: 2em;
   display: flex;
   flex-direction: row;
   margin-bottom: 20px;
 }
 
 .service{
-  border-left: 2px solid #333333;
+  padding-top: -500px;
+  background-color: #fff;
+  height: 15em;
 }
 
 .service p{
   margin: 0 2em 0 2em;
 }
 
-.logo{
-	height: 10%;
-	width: 10%;
+.service h1{
+  margin-top: -2.5em;
 }
- .mac{
-	background-image: url("../img/mac.jpg");
-    @include delimeters;
+
+.border{
+  border-left: 2px solid #333333;
+}
+
+.logo{
+  height: 10%;
+  width: 10%;
+}
+.mac{
+  background-image: url("../img/mac.jpg");
+  @include delimeters;
 }
 .office{
-    background-image: url("../img/office3.jpg");
-    @include delimeters;
+  background-image: url("../img/office3.jpg");
+  @include delimeters;
 }
 .code{
-    background-image: url("../img/code.jpg");
-    @include delimeters;
+  background-image: url("../img/code.jpg");
+  @include delimeters;
 }
 
 h1{
-	font-family: $headingFont;
-	text-align: center;
-	padding: 3em 0 1em 0;
+  font-family: $headingFont;
+  text-align: center;
+  padding: 3em 0 1em 0;
 }
 .bread{
-	font-family: $headingFont;
-	text-align: center;
+  font-family: $headingFont;
+  text-align: center;
 }
 .compName{
-	@include compName;
+  @include compName;
 }
 .logo{
-	padding: 0.5em 0 0 0.5em;
+  padding: 0.5em 0 0 0.5em;
 }
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
 
 li {
-    float: right;
+  float: right;
 }
 
 li a {
-	font-family: 'Lato';
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 25px 16px;
-    text-decoration: none;
+  font-family: 'Lato';
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 25px 16px;
+  text-decoration: none;
 }
 li a:hover{
-	color: #32ffb1;
+  color: #32ffb1;
 }
 
 .arrow{
-	color: white;
-    position: absolute;
-    margin: auto;
-    top: 0; bottom: 0;
-    left: 0; right: 0;
-    width: 40px;
-    height: 40px;
-    font-size: 40px;
-    line-height: 40px;
-    -webkit-animation: bounce 2s infinite ease-in-out;
+  color: white;
+  position: absolute;
+  margin: auto;
+  top: 0; bottom: 0;
+  left: 0; right: 0;
+  width: 40px;
+  height: 40px;
+  font-size: 40px;
+  line-height: 40px;
+  -webkit-animation: bounce 2s infinite ease-in-out;
 }
 @-webkit-keyframes bounce {
-	0%, 20%, 60%, 100%  { -webkit-transform: translateY(0); }
-    40%  { -webkit-transform: translateY(-20px); }
-	80% { -webkit-transform: translateY(-10px); }
+  0%, 20%, 60%, 100%  { -webkit-transform: translateY(0); }
+  40%  { -webkit-transform: translateY(-20px); }
+  80% { -webkit-transform: translateY(-10px); }
 }
-
