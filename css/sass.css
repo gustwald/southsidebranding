@@ -2,7 +2,7 @@
   margin: 0px;
   padding: 0px; }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 480px) {
   .logo {
     display: none; }
 
@@ -30,7 +30,25 @@
 
   .martin {
     background-image: url("../img/krille.gif");
-    background-size: contain; } }
+    background-size: contain; }
+
+  .offers {
+    height: 1170px;
+    background-color: #fff;
+    color: #333; }
+
+  .service {
+    margin: 0 0.5em 1em 0.5em;
+    border: 3px solid #32ffb1;
+    border-radius: 3px; }
+
+  .service h2 {
+    text-align: center;
+    padding: 0.5em 0 0.5em 0; }
+
+  .service p {
+    margin: 0 2em 0 2em;
+    padding-bottom: 1em; } }
 .topNav {
   /*height: 10em;*/ }
 
@@ -53,26 +71,6 @@
 .sections {
   height: 100vh;
   width: 100%; }
-
-.row {
-  padding-top: 2em;
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 20px; }
-
-.service {
-  padding-top: -500px;
-  background-color: #fff;
-  height: 15em; }
-
-.service p {
-  margin: 0 2em 0 2em; }
-
-.service h1 {
-  margin-top: -2.5em; }
-
-.border {
-  border-left: 2px solid #333333; }
 
 .logo {
   height: 10%;
