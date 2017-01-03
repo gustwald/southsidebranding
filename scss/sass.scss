@@ -24,30 +24,7 @@ $headingFont: 'Avenir';
 .sections{
   @include sections;
 }
-.row{
-  padding-top: 2em;
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 20px;
-}
 
-.service{
-  padding-top: -500px;
-  background-color: #fff;
-  height: 15em;
-}
-
-.service p{
-  margin: 0 2em 0 2em;
-}
-
-.service h1{
-  margin-top: -2.5em;
-}
-
-.border{
-  border-left: 2px solid #333333;
-}
 
 .logo{
   height: 10%;
