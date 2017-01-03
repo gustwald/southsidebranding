@@ -2,35 +2,6 @@
   margin: 0px;
   padding: 0px; }
 
-@media screen and (max-width: 600px) {
-  .logo {
-    display: none; }
-
-  .navigation {
-    display: flex;
-    justify-content: center; }
-
-  .portrait {
-    display: block;
-    margin: 0 auto;
-    height: 6em;
-    width: 6em;
-    border: 1px solid black;
-    margin-bottom: 3em;
-    margin-top: 3em;
-    border-radius: 100px; }
-
-  .liam {
-    background-image: url("../img/krille.gif");
-    background-size: contain; }
-
-  .gustav {
-    background-image: url("../img/krille.gif");
-    background-size: contain; }
-
-  .martin {
-    background-image: url("../img/krille.gif");
-    background-size: contain; } }
 .topNav {
   /*height: 10em;*/ }
 
@@ -170,5 +141,70 @@ li a:hover {
     -webkit-transform: translateY(-20px); }
   80% {
     -webkit-transform: translateY(-10px); } }
+.container-contact {
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  margin: 0 0 5em 0; }
+
+.portrait {
+  display: inline-block;
+  position: relative;
+  margin: 4em;
+  margin-bottom: 3em;
+  margin-top: 3em; }
+
+.portrait:hover .names {
+  visibility: visible; }
+
+.names {
+  visibility: hidden;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  color: #32ffb1;
+  text-transform: uppercase;
+  margin: 0;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  font-size: 2rem;
+  transform: translate(-50%, -50%); }
+
+.liam {
+  background-image: url("../img/krille.gif");
+  background-size: contain;
+  border-radius: 200px; }
+
+.gustav {
+  background-image: url("../img/krille.gif");
+  background-size: contain;
+  border-radius: 200px; }
+
+.martin {
+  background-image: url("../img/krille.gif");
+  background-size: contain;
+  border-radius: 200px; }
+
+#map {
+  height: 400px;
+  width: 100%;
+  position: relative; }
+
+@media screen and (max-width: 480px) {
+  .logo {
+    display: none; }
+
+  .navigation {
+    display: flex;
+    justify-content: center; }
+
+  .liam {
+    height: 300px; }
+
+  .gustav {
+    height: 300px; }
+
+  .martin {
+    height: 300px; } }
 
 /*# sourceMappingURL=sass.css.map */
