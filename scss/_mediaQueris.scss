@@ -74,6 +74,36 @@
 		width: 2em;
 		margin-right: 1em;
 	}
+
+	.mike {
+		background-size:350px 65px;
+  		width:350px;
+  		height:65px;
+	}
+	.mike:hover{
+		transform:scale(1.1, 1.1);
+	}
+	.eytys:hover{
+		transform:scale(1.25, 1.25);
+	}
+	.bread{
+		width:75%;
+	}
+	.adidas {
+		background-size:350px 150px;
+  		width:350px;
+ 		height:150px;
+		margin-top:4em;
+	}
+	.adidas:hover {
+		transform:scale(1.15, 1.15);
+	}
+	.eytys {
+		background-size:250px 150px;
+  		width:250px;
+ 		height:150px;
+		margin-top:2em;
+	}
 }
 
 @media screen and (min-width: 480px){
