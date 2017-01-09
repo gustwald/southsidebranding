@@ -288,7 +288,7 @@ li a:hover {
 .media-links img {
   width: 3em; }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 375px) {
   .logo {
     display: none; }
 
