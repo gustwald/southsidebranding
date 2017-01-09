@@ -129,18 +129,21 @@ li a:hover {
   text-align: center; }
 
 .work {
-  height: 200em;
+  height: 75em;
   width: 100%; }
 
 .company {
   width: 100%;
   height: 300px; }
 
+.compmike {
+  height: 220px; }
+
 .mike:hover {
   transform: scale(1.5, 1.5); }
 
 .eytys:hover {
-  transform: scale(1.5, 1.5); }
+  transform: scale(1.4, 1.4); }
 
 .adidas:hover {
   transform: scale(1.3, 1.3); }
@@ -148,26 +151,30 @@ li a:hover {
 .mike {
   background-image: url("../img/snow.png");
   background-repeat: no-repeat;
-  background-size: 400px 100px;
-  width: 400px;
-  height: 100px;
-  margin: 0 auto; }
+  background-size: 500px 80px;
+  width: 500px;
+  height: 80px;
+  margin: 0 auto;
+  padding-bottom: 1em; }
 
 .eytys {
   background-image: url("../img/eytys.png");
   background-repeat: no-repeat;
-  background-size: 200px 100px;
-  width: 200px;
-  height: 100px;
-  margin: 0 auto; }
+  background-size: 300px 200px;
+  width: 300px;
+  height: 200px;
+  margin: 0 auto;
+  padding-bottom: 1em; }
 
 .adidas {
-  background-image: url("../img/adidas.png");
+  background-image: url("../img/adidas2.png");
   background-repeat: no-repeat;
-  background-size: 200px 200px;
-  width: 200px;
-  height: 200px;
-  margin: 0 auto; }
+  background-size: 700px 300px;
+  width: 700px;
+  height: 300px;
+  margin: 0 auto;
+  margin-top: 2.5em;
+  padding-bottom: 1em; }
 
 .triangle {
   position: absolute;
@@ -331,7 +338,38 @@ li a:hover {
 
   .media-links img {
     width: 2em;
-    margin-right: 1em; } }
+    margin-right: 1em; }
+
+  .mike {
+    background-size: 350px 65px;
+    width: 350px;
+    height: 65px; }
+
+  .mike:hover {
+    transform: scale(1.1, 1.1); }
+
+  .eytys:hover {
+    transform: scale(1.25, 1.25); }
+
+  .bread {
+    width: 75%; }
+
+  .adidas {
+    background-size: 350px 150px;
+    width: 350px;
+    height: 150px;
+    margin-top: 4em; }
+
+  .adidas:hover {
+    transform: scale(1.15, 1.15); }
+
+  .eytys {
+    background-size: 250px 150px;
+    width: 250px;
+    height: 150px;
+    margin-top: 2em; } }
+@media screen and (min-width: 480px) {
+    margin-right: 1em; }
 @media screen and (min-width: 481px) {
   .service-row {
     display: flex;
