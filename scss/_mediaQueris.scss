@@ -23,10 +23,8 @@
 	}
 
 	.offers{
-		height: 1600px;
 		background-color: #fff;
 		color: #333;
-
 	}
 
 	.service-row{
@@ -37,6 +35,7 @@
 		margin: 0 0.5em 1em 0.5em;
 		border: 3px solid #32ffb1;
 		border-radius: 3px;
+		display: block;
 	}
 
 	.service h2{
@@ -106,10 +105,10 @@
 	}
 }
 
-@media screen and (min-width: 481px){
+@media screen and (min-width: 376px){
 	.service-row{
-		display: flex;
-		flex-direction: row;
+		//display: flex;
+		//flex-direction: row;
 	}
 
 	.service h2{
@@ -154,7 +153,10 @@
 		margin: 0 10% 0 10%
 	}
 
-
+	.service-row {
+		display: flex;
+		flex-direction: row;
+	}
 	.footer{
 		flex-direction: row;
 		height: 200px;

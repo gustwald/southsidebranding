@@ -309,7 +309,6 @@ li a:hover {
     height: 300px; }
 
   .offers {
-    height: 1600px;
     background-color: #fff;
     color: #333; }
 
@@ -319,7 +318,8 @@ li a:hover {
   .service {
     margin: 0 0.5em 1em 0.5em;
     border: 3px solid #32ffb1;
-    border-radius: 3px; }
+    border-radius: 3px;
+    display: block; }
 
   .service h2 {
     text-align: center;
@@ -378,11 +378,7 @@ li a:hover {
     width: 250px;
     height: 150px;
     margin-top: 2em; } }
-@media screen and (min-width: 481px) {
-  .service-row {
-    display: flex;
-    flex-direction: row; }
-
+@media screen and (min-width: 376px) {
   .service h2 {
     margin-top: 0.5em; }
 
@@ -413,6 +409,10 @@ li a:hover {
 @media screen and (min-width: 1024px) {
   .alloftheshit {
     margin: 0 10% 0 10%; }
+
+  .service-row {
+    display: flex;
+    flex-direction: row; }
 
   .footer {
     flex-direction: row;
