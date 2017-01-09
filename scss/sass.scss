@@ -17,7 +17,7 @@ html{
 
 }
 .landing{
-  background-image: url("../img/office2.jpg");
+  background-image: url("../img/landing.jpg");
   background-size: cover;
   position: relative;
 }
@@ -38,7 +38,7 @@ html{
   @include delimeters;
 }
 .office{
-  background-image: url("../img/office3.jpg");
+  background-image: url("../img/office5.jpg");
   @include delimeters;
 }
 .code{
@@ -159,7 +159,17 @@ li a:hover{
   height:200px;
   margin:0 auto;
 }
-
+.triangle {
+  position: absolute;
+  top:80%;
+  left: 50%;
+  color: white;
+  border-right: 5px solid; 
+  border-bottom: 5px solid;
+  width: 30px; height: 30px;
+  transform: rotate(-45deg);
+  -webkit-animation:bounce 2s infinite;
+}
 @-webkit-keyframes bounce {
   0%, 20%, 60%, 100%  { -webkit-transform: translateY(0); }
   40%  { -webkit-transform: translateY(-20px); }
@@ -219,6 +229,7 @@ li a:hover{
 .footer{
   color: #ffffff;
   display: flex;
+  justify-content: center;
   height: 250px;
   width:100%;
   background-color: #333333;
@@ -232,6 +243,14 @@ li a:hover{
   display: flex;
   flex-direction: column;
 }
+.footer-text{
+  font-family: 'Lato', sans-serif;
+  line-height: 40px;
+}
+.footer-contact{
+  font-family: $headingFont;
+  font-size: 42px;
+}
 
 .foot-contact{
   display:flex;
@@ -240,6 +259,7 @@ li a:hover{
 
 .media-links{
   display: flex;
+  margin-top: 5em;
 }
 
 .media-links img{

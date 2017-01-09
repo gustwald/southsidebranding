@@ -9,7 +9,7 @@ html {
   /*height: 10em;*/ }
 
 .landing {
-  background-image: url("../img/office2.jpg");
+  background-image: url("../img/landing.jpg");
   background-size: cover;
   position: relative; }
 
@@ -42,7 +42,7 @@ html {
   position: relative; }
 
 .office {
-  background-image: url("../img/office3.jpg");
+  background-image: url("../img/office5.jpg");
   height: 10em;
   background-attachment: fixed;
   background-position: center;
@@ -169,6 +169,18 @@ li a:hover {
   height: 200px;
   margin: 0 auto; }
 
+.triangle {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  color: white;
+  border-right: 5px solid;
+  border-bottom: 5px solid;
+  width: 30px;
+  height: 30px;
+  transform: rotate(-45deg);
+  -webkit-animation: bounce 2s infinite; }
+
 @-webkit-keyframes bounce {
   0%, 20%, 60%, 100% {
     -webkit-transform: translateY(0); }
@@ -228,6 +240,7 @@ li a:hover {
 .footer {
   color: #ffffff;
   display: flex;
+  justify-content: center;
   height: 250px;
   width: 100%;
   background-color: #333333; }
@@ -239,12 +252,21 @@ li a:hover {
   display: flex;
   flex-direction: column; }
 
+.footer-text {
+  font-family: 'Lato', sans-serif;
+  line-height: 40px; }
+
+.footer-contact {
+  font-family: "Avenir";
+  font-size: 42px; }
+
 .foot-contact {
   display: flex;
   flex-direction: column; }
 
 .media-links {
-  display: flex; }
+  display: flex;
+  margin-top: 5em; }
 
 .media-links img {
   width: 3em; }
