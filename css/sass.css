@@ -60,12 +60,15 @@ html {
   position: relative; }
 
 h1 {
-  font-family: "Avenir";
+  font-family: "Oswald";
   text-align: center;
   padding: 3em 0 1em 0; }
 
+h2 {
+  font-family: "Oswald"; }
+
 .bread {
-  font-family: "Avenir";
+  font-family: "Oswald";
   text-align: center;
   padding-top: 1em;
   margin: 0 auto;
@@ -121,12 +124,19 @@ li a:hover {
   -webkit-animation: bounce 2s infinite ease-in-out; }
 
 .service {
+  line-height: 1.6em;
   margin: 0 0.5em 1em 0.5em;
   border: 3px solid #32ffb1;
   border-radius: 3px; }
 
+.service-bread {
+  font-family: "Oswald";
+  font-size: 1.5em;
+  line-height: 1.6em; }
+
 .service h2 {
-  text-align: center; }
+  text-align: center;
+  font-size: 2em; }
 
 .work {
   height: 200em;
@@ -270,7 +280,7 @@ li a:hover {
     height: 300px; }
 
   .offers {
-    height: 1170px;
+    height: 1600px;
     background-color: #fff;
     color: #333; }
 
@@ -344,12 +354,11 @@ li a:hover {
     width: 2.5em; } }
 @media screen and (min-width: 1024px) {
   .alloftheshit {
-    display: flex;
-    flex-direction: row;
-    margin: 0 5% 0 5%; }
+    margin: 0 10% 0 10%; }
 
   .footer {
-    flex-direction: row; }
+    flex-direction: row;
+    height: 200px; }
 
   .footer-info {
     width: 25%;
@@ -361,7 +370,7 @@ li a:hover {
 
   .media-links {
     width: 25%;
-    margin: -10em 20em 0 1em;
+    margin: -3em 20em 0 1em;
     flex-direction: row; }
 
   .media-links img {
