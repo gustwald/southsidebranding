@@ -347,6 +347,8 @@ li a:hover {
     height: 150px;
     margin-top: 2em; } }
 @media screen and (min-width: 480px) {
+    margin-right: 1em; }
+@media screen and (min-width: 481px) {
   .service-row {
     display: flex;
     flex-direction: row; }
@@ -365,7 +367,8 @@ li a:hover {
     height: 20em; }
 
   .footer-info {
-    margin: 2em 0 0 15%; }
+    margin: 2em 0 0 15%;
+    width: 50%; }
 
   .foot-contact {
     margin: 2em 0 0 15%; }
@@ -376,7 +379,7 @@ li a:hover {
     justify-content: space-between; }
 
   .media-links img {
-    width: 3em; } }
+    width: 2.5em; } }
 @media screen and (min-width: 1024px) {
   .alloftheshit {
     display: flex;
