@@ -4,7 +4,7 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
 	  
-	  .logo{
+	.logo{
 		display:none;
 	}
 	h1{
@@ -89,6 +89,16 @@
 	.media-links img{
 		width: 2em;
 		margin-right: 1em;
+	}
+
+	.workcontainer {
+		flex-direction:column;
+		display:block;
+		margin:0 auto;
+		text-align:center;
+	}
+	.company {
+		width:90%;
 	}
 
 	.mike {
