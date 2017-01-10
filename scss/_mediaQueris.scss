@@ -7,7 +7,18 @@
 	  .logo{
 		display:none;
 	}
-
+	h1{
+		font-size: 52px;
+	}
+	.bread-about{
+		font-family: 'Lato', sans-serif;
+		font-size: 38px;
+		text-align: center;
+		line-height: 46px;
+		padding-top:1em;
+		margin:0 auto;
+		width:60%;
+	}
 	.navigation{
 		display: flex;
 		justify-content: center;
