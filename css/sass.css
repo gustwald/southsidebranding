@@ -140,7 +140,7 @@ li a:hover {
   font-size: 2em; }
 
 .work {
-  height: 75em;
+  height: 100em;
   width: 100%; }
 
 .workcontainer {
@@ -304,6 +304,18 @@ li a:hover {
   h1 {
     font-size: 52px; }
 
+  li a {
+    font-family: 'Lato';
+    font-size: 40px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 50px 16px;
+    text-decoration: none; }
+
+  .compName {
+    font-size: 60px; }
+
   .bread-about {
     font-family: 'Lato', sans-serif;
     font-size: 38px;
@@ -365,7 +377,8 @@ li a:hover {
     justify-content: space-between; }
 
   .media-links {
-    margin-left: 10%; }
+    margin-left: 10%;
+    margin-top: 35px !important; }
 
   .media-links img {
     width: 2em;

@@ -28,8 +28,12 @@ html{
 .sections{
   @include sections;
 }
+.contact{
+ 
+}
+.offers{
 
-
+}
 .logo{
   height: 10%;
   width: 10%;
@@ -126,7 +130,7 @@ li a:hover{
 }
 
 .work {
-  height:75em;
+  height:100em;
   width:100%;
 }
 
