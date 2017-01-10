@@ -140,14 +140,15 @@ li a:hover {
 
 .work {
   height: 75em;
-  width: 100%; }
+  width: 100%;
+  padding-right: 1.5em;
+  padding-left: 1.5em; }
 
 .company {
-  width: 100%;
-  height: 300px; }
-
-.compmike {
-  height: 220px; }
+  width: 30%;
+  height: 300px;
+  display: inline-block;
+  background-color: #f2f2f2; }
 
 .mike:hover {
   transform: scale(1.5, 1.5); }
@@ -161,9 +162,9 @@ li a:hover {
 .mike {
   background-image: url("../img/snow.png");
   background-repeat: no-repeat;
-  background-size: 500px 80px;
-  width: 500px;
-  height: 80px;
+  background-size: 150px 40px;
+  width: 150px;
+  height: 40px;
   margin: 0 auto;
   padding-bottom: 1em; }
 
@@ -179,9 +180,9 @@ li a:hover {
 .adidas {
   background-image: url("../img/adidas2.png");
   background-repeat: no-repeat;
-  background-size: 700px 300px;
-  width: 700px;
-  height: 300px;
+  background-size: 250px 100px;
+  width: 250px;
+  height: 100px;
   margin: 0 auto;
   margin-top: 2.5em;
   padding-bottom: 1em; }
@@ -288,7 +289,7 @@ li a:hover {
 .media-links img {
   width: 3em; }
 
-@media screen and (max-width: 375px) {
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
   .logo {
     display: none; }
 
@@ -297,7 +298,7 @@ li a:hover {
     justify-content: center; }
 
   .portrait {
-    display: inline-block; }
+    display: block; }
 
   .liam {
     height: 300px; }
@@ -377,8 +378,8 @@ li a:hover {
     background-size: 250px 150px;
     width: 250px;
     height: 150px;
-    margin-top: 2em; } }
-@media screen and (min-width: 376px) {
+    margin-top: 2em; }
+
   .service h2 {
     margin-top: 0.5em; }
 
