@@ -10,6 +10,9 @@
   background-size: cover;
   position: relative; }
 
+.about {
+  margin-top: 15em; }
+
 .landing::after {
   content: "";
   width: 100%;
@@ -55,6 +58,13 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative; }
+
+hr {
+  margin: 6em 20% 0 20%;
+  background: #333333;
+  height: 3px;
+  border: 0;
+  border-radius: 3px; }
 
 h1 {
   font-family: "Oswald";
@@ -124,7 +134,7 @@ li a:hover {
 .service {
   line-height: 1.6em;
   margin: 0 0.5em 1em 0.5em;
-  border: 3px solid #32ffb1;
+  border: 3px solid #333333;
   border-radius: 3px; }
 
 .service-bread {
@@ -132,12 +142,15 @@ li a:hover {
   font-size: 1.5em;
   line-height: 1.6em; }
 
+.service p {
+  margin: 1em 1em 1em 1em; }
+
 .service h2 {
+  margin: 1em 0 0 0;
   text-align: center;
   font-size: 2em; }
 
 .work {
-  height: 100em;
   width: 100%; }
 
 .workcontainer {
@@ -294,7 +307,7 @@ li a:hover {
 .media-links img {
   width: 3em; }
 
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+@media only screen and (min-device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
   .logo {
     display: none; }
 
@@ -346,18 +359,7 @@ li a:hover {
     display: block; }
 
   .service {
-    margin: 0 0.5em 1em 0.5em;
-    border: 3px solid #32ffb1;
-    border-radius: 3px;
     display: block; }
-
-  .service h2 {
-    text-align: center;
-    padding: 0.5em 0 0.5em 0; }
-
-  .service p {
-    margin: 0 2em 0 2em;
-    padding-bottom: 1em; }
 
   .footer {
     flex-direction: column;
@@ -446,13 +448,16 @@ li a:hover {
 
   .media-links img {
     width: 2.5em; } }
-@media screen and (min-width: 1024px) {
-  .alloftheshit {
-    margin: 0 10% 0 10%; }
-
+@media screen and (min-device-width: 667px) {
   .service-row {
     display: flex;
     flex-direction: row; }
+
+  .service h2 {
+    margin-top: 1em; }
+
+  .service p {
+    margin: 1em 1em 1em 1em; }
 
   .footer {
     flex-direction: row;
@@ -473,5 +478,8 @@ li a:hover {
 
   .media-links img {
     margin: 0 0 0 1em; } }
+@media screen and (min-width: 1024px) {
+  .offer-content {
+    margin: 0 10% 0 10%; } }
 
 /*# sourceMappingURL=sass.css.map */
