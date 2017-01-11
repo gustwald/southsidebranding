@@ -6,21 +6,25 @@
 	.logo{
 		display:none;
 	}
+
 	h1{
 		font-size: 52px;
 	}
+
 	li a {
-		font-family: 'Lato';
-		font-size: 40px;	
+		//font-family: 'Lato';
+		font-size: 40px;
 		display: block;
 		color: white;
 		text-align: center;
 		padding: 50px 16px;
 		text-decoration: none;
-		}
-		.compName{
-			font-size: 60px;
-		}
+	}
+
+	.compName{
+		font-size: 60px;
+	}
+
 	.bread-about{
 		font-family: 'Lato', sans-serif;
 		font-size: 38px;
@@ -30,22 +34,24 @@
 		margin:0 auto;
 		width:60%;
 	}
+
 	.navigation{
 		display: flex;
 		justify-content: center;
 	}
+
 	.portrait{
 		display: block;
 	}
-	.container-contact{
 
-	}
 	.liam{
 		height: 300px;
 	}
+
 	.gustav{
 		height: 300px;
 	}
+
 	.martin{
 		height: 300px;
 	}
@@ -105,34 +111,35 @@
   		width:350px;
   		height:65px;
 	}
+
 	.mike:hover{
 		transform:scale(1.1, 1.1);
 	}
+
 	.eytys:hover{
 		transform:scale(1.25, 1.25);
 	}
+
 	.bread{
 		width:75%;
 	}
+
 	.adidas {
 		background-size:350px 150px;
   		width:350px;
  		height:150px;
 		margin-top:4em;
 	}
+
 	.adidas:hover {
 		transform:scale(1.15, 1.15);
 	}
+
 	.eytys {
 		background-size:250px 150px;
   		width:250px;
  		height:150px;
 		margin-top:2em;
-	}
-
-	.service-row{
-		//display: flex;
-		//flex-direction: row;
 	}
 
 	.service h2{
@@ -145,29 +152,6 @@
 
 	.office{
 		margin-top: 2em;
-	}
-
-	.footer{
-		flex-direction: column;
-		height: 20em;
-	}
-
-	.footer-info{
-		margin: 2em 0 0 15%;
-		width: 50%;
-	}
-
-	.foot-contact{
-		margin: 2em 0 0 15%;
-	}
-	.media-links{
-		display: flex;
-		margin: 0 15% 0 15%;
-		justify-content: space-between;
-	}
-
-	.media-links img{
-		width: 2.5em;
 	}
 }
 
@@ -215,7 +199,4 @@
 	.offer-content{
 		margin: 0 10% 0 10%
 	}
-
-
-
 }

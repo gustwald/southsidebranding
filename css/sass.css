@@ -1,6 +1,9 @@
 * {
-  margin: 0px;
-  padding: 0px; }
+  margin: 0;
+  padding: 0; }
+
+html {
+  scroll-behavior: smooth; }
 
 .topNav {
   /*height: 10em;*/ }
@@ -11,7 +14,7 @@
   position: relative; }
 
 .about {
-  margin-top: 15em; }
+  margin-top: 1em; }
 
 .landing::after {
   content: "";
@@ -61,7 +64,7 @@
 
 hr {
   margin: 6em 20% 0 20%;
-  background: #333333;
+  background: #32ffb1;
   height: 3px;
   border: 0;
   border-radius: 3px; }
@@ -132,10 +135,10 @@ li a:hover {
   -webkit-animation: bounce 2s infinite ease-in-out; }
 
 .service {
-  line-height: 1.6em;
-  margin: 0 0.5em 1em 0.5em;
   border: 3px solid #333333;
-  border-radius: 3px; }
+  border-radius: 3px;
+  line-height: 1.6em;
+  margin: 0 0.5em 1em 0.5em; }
 
 .service-bread {
   font-family: "Oswald";
@@ -160,11 +163,14 @@ li a:hover {
 
 .company {
   width: 30%;
-  height: 380px;
   display: inline-block;
-  background-color: #f2f2f2;
-  margin: 10px;
-  box-shadow: 1px 1px 1px #888888; }
+  border: 3px solid #333333;
+  border-radius: 3px;
+  margin: 0.4em 0.3em 0.4em 0.3em; }
+
+.company p {
+  line-height: 1.6em;
+  margin-bottom: 1em; }
 
 .mike:hover {
   transform: scale(1.2, 1.2); }
@@ -315,7 +321,6 @@ li a:hover {
     font-size: 52px; }
 
   li a {
-    font-family: 'Lato';
     font-size: 40px;
     display: block;
     color: white;
@@ -428,26 +433,7 @@ li a:hover {
     margin: 0.5em 1em 0.5em 1em; }
 
   .office {
-    margin-top: 2em; }
-
-  .footer {
-    flex-direction: column;
-    height: 20em; }
-
-  .footer-info {
-    margin: 2em 0 0 15%;
-    width: 50%; }
-
-  .foot-contact {
-    margin: 2em 0 0 15%; }
-
-  .media-links {
-    display: flex;
-    margin: 0 15% 0 15%;
-    justify-content: space-between; }
-
-  .media-links img {
-    width: 2.5em; } }
+    margin-top: 2em; } }
 @media screen and (min-device-width: 667px) {
   .service-row {
     display: flex;
