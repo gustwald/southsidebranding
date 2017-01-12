@@ -1,54 +1,64 @@
 *{
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
-@import "mixins";
 
+@import "mixins";
 
 $headingFont: 'Oswald';
 
 html{
   scroll-behavior: smooth;
 }
+
 .topNav{
   /*height: 10em;*/
 }
-.navigation{
 
-}
 .landing{
   background-image: url("../img/landing.jpg");
   background-size: cover;
   position: relative;
 }
 
+.about{
+  margin-top: 1em;
+}
+
 .landing::after{
   @include skew;
 }
+
 .sections{
   @include sections;
 }
-.contact{
- 
-}
-.offers{
 
-}
 .logo{
   height: 10%;
   width: 10%;
 }
+
 .mac{
   background-image: url("../img/mac.jpg");
   @include delimeters;
 }
+
 .office{
   background-image: url("../img/office5.jpg");
   @include delimeters;
 }
+
 .code{
   background-image: url("../img/code.jpg");
   @include delimeters;
+}
+
+hr{
+  margin: 6em 20% 0 20%;
+  background: #32ffb1;
+  height: 3px;
+  border: 0;
+  border-radius: 3px;
 }
 
 h1{
@@ -60,6 +70,7 @@ h1{
 h2{
   font-family:$headingFont;
 }
+
 .bread{
   font-family: $headingFont;
   text-align: center;
@@ -68,12 +79,15 @@ h2{
   width:75%;
   font-size:20px;
 }
+
 .compName{
   @include compName;
 }
+
 .logo{
   padding: 0.5em 0 0 0.5em;
 }
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -111,11 +125,13 @@ li a:hover{
   -webkit-animation: bounce 2s infinite ease-in-out;
 }
 
+
+//offers
 .service{
+  border: 3px solid #333333;
+  border-radius: 3px;
   line-height: 1.6em;
   margin: 0 0.5em 1em 0.5em;
-  border: 3px solid #32ffb1;
-  border-radius: 3px;
 }
 
 .service-bread{
@@ -124,16 +140,21 @@ li a:hover{
   line-height: 1.6em;
 }
 
+.service p{
+  margin: 1em 1em 1em 1em;
+}
+
 .service h2{
+  margin: 1em 0 0 0;
   text-align: center;
   font-size: 2em;
 }
 
 .work {
-  height:100em;
   width:100%;
 }
 
+//work
 .workcontainer {
   display:flex;
   justify-content:center;
@@ -142,11 +163,19 @@ li a:hover{
 
 .company{
   width:30%;
-  height:380px;
+  //height:380px;
   display:inline-block;
-  background-color:#f2f2f2;
-  margin:10px;
-  box-shadow: 1px 1px 1px #888888;
+  //background-color:#f2f2f2;
+  border: 3px solid #333333;
+  border-radius: 3px;
+  //margin:10px;
+  margin: 0.4em 0.3em 0.4em 0.3em;
+  //box-shadow: 1px 1px 1px #888888;
+}
+
+.company p{
+  line-height: 1.6em;
+  margin-bottom: 1em;
 }
 
 .mike:hover{
@@ -193,6 +222,7 @@ li a:hover{
   margin-top:1.5rem;
   text-align:center;
 }
+
 .triangle {
   position: absolute;
   top:80%;
@@ -204,11 +234,14 @@ li a:hover{
   transform: rotate(-45deg);
   -webkit-animation:bounce 2s infinite;
 }
+
 @-webkit-keyframes bounce {
   0%, 20%, 60%, 100%  { -webkit-transform: translateY(0); }
   40%  { -webkit-transform: translateY(-20px); }
   80% { -webkit-transform: translateY(-10px); }
 }
+
+//kontakt
 .container-contact{
   margin: 0 auto;
   text-align: center;
@@ -216,50 +249,56 @@ li a:hover{
   margin: 0 0 5em 0;
 }
 .portrait{
-	  display: inline-block;
-    position: relative;
-    margin: 4em;
-		margin-bottom: 3em;
-		margin-top: 3em;
-	}
-  .portrait:hover .names{
-    visibility: visible;
-  }
-  .names{
-    visibility: hidden;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 900;
-    color: #32ffb1;
-    text-transform: uppercase;
-    margin: 0;
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    font-size: 2rem;
-    transform: translate(-50%, -50%);
-  }
-  .liam{
-		background-image: url("../img/krille.gif");
-		background-size: contain;
-    border-radius: 200px;
-	}	
-	.gustav{
-		background-image: url("../img/krille.gif");
-		background-size: contain;
-    border-radius: 200px;
-	}
-	.martin{
-		background-image: url("../img/krille.gif");
-		background-size: contain;
-    border-radius: 200px;
-	}
+  display: inline-block;
+  position: relative;
+  margin: 4em;
+  margin-bottom: 3em;
+  margin-top: 3em;
+}
 
-  #map {
-        height: 400px;
-        width: 100%;
-        position: relative;
-       }
+.portrait:hover .names{
+  visibility: visible;
+}
 
+.names{
+  visibility: hidden;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  color: #32ffb1;
+  text-transform: uppercase;
+  margin: 0;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  font-size: 2rem;
+  transform: translate(-50%, -50%);
+}
+
+.liam{
+  background-image: url("../img/krille.gif");
+  background-size: contain;
+  border-radius: 200px;
+}
+
+.gustav{
+  background-image: url("../img/krille.gif");
+  background-size: contain;
+  border-radius: 200px;
+}
+
+.martin{
+  background-image: url("../img/krille.gif");
+  background-size: contain;
+  border-radius: 200px;
+}
+
+#map{
+  height: 400px;
+  width: 100%;
+  position: relative;
+}
+
+//footer
 .footer{
   color: #ffffff;
   display: flex;
@@ -277,10 +316,12 @@ li a:hover{
   display: flex;
   flex-direction: column;
 }
+
 .footer-text{
   font-family: 'Lato', sans-serif;
   line-height: 40px;
 }
+
 .footer-contact{
   font-family: 'Lato', sans-serif;
   font-size: 42px;
