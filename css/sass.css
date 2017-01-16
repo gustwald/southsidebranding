@@ -63,7 +63,7 @@ html {
   position: relative; }
 
 hr {
-  margin: 6em 20% -5em 20%;
+  margin: 6em 20% 0px 20%;
   background: #333333;
   height: 3px;
   border: 0;
@@ -198,6 +198,8 @@ li a:hover {
   background-size: 600px 240px; }
 
 .company p {
+  font-family: "Oswald";
+  font-size: 1.5em;
   line-height: 1.6em;
   margin-bottom: 1em; }
 
@@ -356,6 +358,9 @@ li a:hover {
     text-align: center;
     padding: 50px 16px;
     text-decoration: none; }
+
+  .section-header {
+    margin: -1.5em 0 0 0; }
 
   .compName {
     font-size: 60px; }
