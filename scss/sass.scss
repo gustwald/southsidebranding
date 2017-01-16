@@ -16,8 +16,7 @@ html{
 }
 
 .landing{
-  background-image: url("../img/landing.jpg");
-  background-size: cover;
+  overflow: hidden;
   position: relative;
 }
 
@@ -27,6 +26,9 @@ html{
 
 .landing::after{
   @include skew;
+  background-image: url("../img/landing.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .sections{
@@ -92,7 +94,7 @@ h2{
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 0 2em 0 0;
   overflow: hidden;
   background-color: #333;
 }
@@ -122,21 +124,6 @@ li a:hover{
   font-size: 16px;
   margin: 1em 0 0 0;
 }
-
-.arrow{
-  color: white;
-  position: absolute;
-  margin: auto;
-  top: 0; bottom: 0;
-  left: 0; right: 0;
-  width: 40px;
-  height: 40px;
-  font-size: 40px;
-  line-height: 40px;
-  -webkit-animation: bounce 2s infinite ease-in-out;
-}
-
-
 //offers
 .service{
   background-color:#f2f2f2;
@@ -262,11 +249,13 @@ li a:hover{
   top:80%;
   left: 50%;
   color: white;
-  border-right: 5px solid;
-  border-bottom: 5px solid;
-  width: 30px; height: 30px;
-  transform: rotate(-45deg);
+  width: 0; 
+  height: 0; 
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid white;
   -webkit-animation:bounce 2s infinite;
+   transform: rotateX(90deg);
 }
 
 @-webkit-keyframes bounce {
