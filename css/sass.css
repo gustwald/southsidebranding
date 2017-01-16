@@ -6,7 +6,9 @@ html {
   scroll-behavior: smooth; }
 
 .topNav {
-  /*height: 10em;*/ }
+  position: fixed;
+  width: 100%;
+  z-index: 100000; }
 
 .landing {
   overflow: hidden;
@@ -30,39 +32,12 @@ html {
   background-repeat: no-repeat; }
 
 .sections {
-  height: 100vh;
+  height: 110vh;
   width: 100%; }
 
 .logo {
   height: 10%;
   width: 10%; }
-
-.mac {
-  background-image: url("../img/mac.jpg");
-  height: 10em;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative; }
-
-.office {
-  background-image: url("../img/office5.jpg");
-  height: 10em;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative; }
-
-.code {
-  background-image: url("../img/code.jpg");
-  height: 10em;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative; }
 
 hr {
   margin: 6em 20% 0 20%;
@@ -280,10 +255,11 @@ li a:hover {
   border-radius: 200px;
   height: 390px;
   width: 265px;
-  margin: 2em; }
+  margin: 2em 2em 0 2em; }
 
 .gustav {
   background-image: url("../img/gustav.jpg");
+  background-size: cover;
   background-size: cover;
   border-radius: 200px;
   height: 390px;
