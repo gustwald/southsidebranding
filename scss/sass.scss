@@ -15,6 +15,10 @@ html{
   /*height: 10em;*/
 }
 
+body{
+  margin: 0 0 0 0;
+}
+
 .landing{
   background-image: url("../img/landing.jpg");
   background-size: cover;
@@ -228,7 +232,7 @@ li a:hover{
   top:80%;
   left: 50%;
   color: white;
-  border-right: 5px solid; 
+  border-right: 5px solid;
   border-bottom: 5px solid;
   width: 30px; height: 30px;
   transform: rotate(-45deg);
@@ -292,6 +296,14 @@ li a:hover{
   border-radius: 200px;
 }
 
+.mail{
+  margin-top:-1em;
+}
+
+.tel{
+  margin-right:8em;
+}
+
 #map{
   height: 400px;
   width: 100%;
@@ -300,6 +312,7 @@ li a:hover{
 
 //footer
 .footer{
+  margin: 0 0 0 0;
   color: #ffffff;
   display: flex;
   justify-content: center;
@@ -340,6 +353,4 @@ li a:hover{
 .media-links img{
   width: 3em;
 }
-  @import "mediaQueris.scss";
-
-  
+@import "mediaQueris.scss";

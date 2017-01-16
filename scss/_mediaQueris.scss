@@ -1,8 +1,8 @@
-@media only screen 
-  and (min-device-width: 320px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) { 
-	  
+@media only screen
+and (min-device-width: 320px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
+
 	.logo{
 		display:none;
 	}
@@ -108,8 +108,8 @@
 
 	.mike {
 		background-size:350px 65px;
-  		width:350px;
-  		height:65px;
+		width:350px;
+		height:65px;
 	}
 
 	.mike:hover{
@@ -126,8 +126,8 @@
 
 	.adidas {
 		background-size:350px 150px;
-  		width:350px;
- 		height:150px;
+		width:350px;
+		height:150px;
 		margin-top:4em;
 	}
 
@@ -137,8 +137,8 @@
 
 	.eytys {
 		background-size:250px 150px;
-  		width:250px;
- 		height:150px;
+		width:250px;
+		height:150px;
 		margin-top:2em;
 	}
 
@@ -155,7 +155,7 @@
 	}
 }
 
-@media screen  and (min-device-width: 667px){
+@media screen  and (min-device-width: 768px){
 	.service-row {
 		display: flex;
 		flex-direction: row;
@@ -168,6 +168,12 @@
 	.service p{
 		margin: 1em 1em 1em 1em;
 	}
+
+	.mail{
+		margin: 0 7em 0 2.6em;
+
+	}
+
 	.footer{
 		flex-direction: row;
 		height: 200px;
@@ -184,6 +190,7 @@
 	}
 
 	.media-links{
+		display:flex;
 		width: 25%;
 		margin: -3em 20em 0 1em;
 		flex-direction: row;
