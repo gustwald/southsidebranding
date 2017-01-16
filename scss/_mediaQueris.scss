@@ -75,6 +75,7 @@ and (orientation: portrait) {
 	}
 
 	.service p{
+		text-align: center;
 		margin: 0.5em 1em 0.5em 1em;
 		padding: 0 0 1em 0;
 	}
@@ -174,6 +175,10 @@ and (orientation: portrait) {
 		flex-direction: row;
 	}
 
+	.service{
+		width: 50%
+	}
+
 	.service h2{
 		margin-top: 1em;
 	}
@@ -210,6 +215,6 @@ and (orientation: portrait) {
 @media screen and (min-width: 1024px){
 
 	.offer-content{
-		margin: 0 10% 0 10%
+		margin: 0 3.8% 0 3.8%
 	}
 }
