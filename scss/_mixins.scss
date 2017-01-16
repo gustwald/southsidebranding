@@ -6,8 +6,8 @@
     background: inherit;
     z-index: -1;
     bottom: 0;
-    transform-origin: left bottom;
-    transform: skewY(4deg);
+    transform-origin: top right;
+    transform: skewY(3deg);
 }
 
 @mixin sections(){
