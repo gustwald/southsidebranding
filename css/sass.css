@@ -67,7 +67,7 @@ body {
 
 hr {
   margin: 6em 20% 0 20%;
-  background: #32ffb1;
+  background: #000000;
   height: 3px;
   border: 0;
   border-radius: 3px; }
@@ -86,7 +86,8 @@ h2 {
   padding-top: 1em;
   margin: 0 auto;
   width: 75%;
-  font-size: 20px; }
+  font-size: 1.5em;
+  line-height: 1.6em; }
 
 .compName {
   text-align: center;
@@ -138,8 +139,8 @@ li a:hover {
   -webkit-animation: bounce 2s infinite ease-in-out; }
 
 .service {
-  border: 3px solid #333333;
-  border-radius: 3px;
+  background-color: #f2f2f2;
+  box-shadow: 1px 1px 1px #888888;
   line-height: 1.6em;
   margin: 0 0.5em 1em 0.5em; }
 
@@ -167,9 +168,27 @@ li a:hover {
 .company {
   width: 30%;
   display: inline-block;
-  border: 3px solid #333333;
-  border-radius: 3px;
-  margin: 0.4em 0.3em 0.4em 0.3em; }
+  background-color: #f2f2f2;
+  margin: 0.4em 0.3em 0.4em 0.3em;
+  box-shadow: 1px 1px 1px #888888; }
+
+.picwork {
+  height: 15em; }
+
+.snow {
+  background-image: url("../img/pontus.jpg");
+  background-repeat: no-repeat;
+  background-size: 427px 240px; }
+
+.doja {
+  background-image: url("../img/PANGBRA.jpg");
+  background-repeat: no-repeat;
+  background-size: 427px 240px; }
+
+.adid {
+  background-image: url("../img/zxfluxlol2.jpg");
+  background-repeat: no-repeat;
+  background-size: 600px 240px; }
 
 .company p {
   line-height: 1.6em;
@@ -425,7 +444,7 @@ li a:hover {
     background-size: 350px 150px;
     width: 350px;
     height: 150px;
-    margin-top: 4em; }
+    margin-top: 2em; }
 
   .adidas:hover {
     transform: scale(1.15, 1.15); }
@@ -435,6 +454,15 @@ li a:hover {
     width: 250px;
     height: 150px;
     margin-top: 2em; }
+
+  .snow {
+    display: none; }
+
+  .doja {
+    display: none; }
+
+  .adid {
+    display: none; }
 
   .service h2 {
     margin-top: 0.5em; }
