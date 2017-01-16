@@ -68,15 +68,18 @@ h1{
 }
 
 h2{
+  padding-top:1em;
   font-family:$headingFont;
+  text-align:center;
 }
 
 .bread{
   font-family: $headingFont;
   text-align: center;
-  padding-top:1em;
+  padding-top:0.5em;
+  padding-bottom:1em;
   margin:0 auto;
-  width:75%;
+  width:85%;
   font-size:1.5em;
   line-height:1.6em;
 }
@@ -138,6 +141,10 @@ li a:hover{
 
 
 //offers
+.offers {
+  width:100%;
+}
+
 .service{
   background-color:#f2f2f2;
   box-shadow: 1px 1px 1px #888888;
@@ -153,9 +160,9 @@ li a:hover{
   line-height: 1.6em;
 }
 
-.service p{
-  margin: 1em 1em 1em 1em;
-}
+// .service p{
+//   margin: 1em 1em 1em 1em;
+// }
 
 .service h2{
   margin: 1em 0 0 0;
@@ -182,8 +189,8 @@ li a:hover{
   // border: 3px solid #333333;
   // border-radius: 3px;
   //margin:10px;
-  margin: 0.4em 0.3em 0.4em 0.3em;
-  box-shadow: 1px 1px 1px #888888;
+  margin: 1em 0.3em 1em 0.3em;
+  // box-shadow: 1px 1px 1px #888888;
 }
 
 .picwork {
@@ -205,11 +212,6 @@ li a:hover{
   background-image: url("../img/zxfluxlol2.jpg");
   background-repeat:no-repeat;
   background-size:600px 240px;
-}
-
-.company p{
-  line-height: 1.6em;
-  margin-bottom: 1em;
 }
 
 .mike:hover{
