@@ -15,10 +15,6 @@ html{
   /*height: 10em;*/
 }
 
-body{
-  margin: 0 0 0 0;
-}
-
 .landing{
   background-image: url("../img/landing.jpg");
   background-size: cover;
@@ -320,14 +316,6 @@ li a:hover{
   border-radius: 200px;
 }
 
-.mail{
-  margin-top:-1em;
-}
-
-.tel{
-  margin-right:8em;
-}
-
 #map{
   height: 400px;
   width: 100%;
@@ -336,7 +324,6 @@ li a:hover{
 
 //footer
 .footer{
-  margin: 0 0 0 0;
   color: #ffffff;
   display: flex;
   justify-content: center;
