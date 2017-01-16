@@ -63,8 +63,8 @@ html {
   position: relative; }
 
 hr {
-  margin: 6em 20% 0 20%;
-  background: #000000;
+  margin: 6em 20% -5em 20%;
+  background: #333333;
   height: 3px;
   border: 0;
   border-radius: 3px; }
