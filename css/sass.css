@@ -9,8 +9,7 @@ html {
   /*height: 10em;*/ }
 
 .landing {
-  background-image: url("../img/landing.jpg");
-  background-size: cover;
+  overflow: hidden;
   position: relative; }
 
 .about {
@@ -24,8 +23,11 @@ html {
   background: inherit;
   z-index: -1;
   bottom: 0;
-  transform-origin: left bottom;
-  transform: skewY(4deg); }
+  transform-origin: top right;
+  transform: skewY(3deg);
+  background-image: url("../img/landing.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
 
 .sections {
   height: 100vh;
@@ -63,8 +65,8 @@ html {
   position: relative; }
 
 hr {
-  margin: 6em 20% 0px 20%;
-  background: #333333;
+  margin: 6em 20% 0 20%;
+  background: #000000;
   height: 3px;
   border: 0;
   border-radius: 3px; }
@@ -75,14 +77,17 @@ h1 {
   padding: 3em 0 1em 0; }
 
 h2 {
-  font-family: "Oswald"; }
+  padding-top: 1em;
+  font-family: "Oswald";
+  text-align: center; }
 
 .bread {
   font-family: "Oswald";
   text-align: center;
-  padding-top: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 1em;
   margin: 0 auto;
-  width: 75%;
+  width: 85%;
   font-size: 1.5em;
   line-height: 1.6em; }
 
@@ -103,7 +108,7 @@ h2 {
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 0 2em 0 0;
   overflow: hidden;
   background-color: #333; }
 
@@ -131,6 +136,7 @@ li a:hover {
   font-size: 16px;
   margin: 1em 0 0 0; }
 
+
 .arrow {
   color: white;
   position: absolute;
@@ -145,6 +151,10 @@ li a:hover {
   line-height: 40px;
   -webkit-animation: bounce 2s infinite ease-in-out; }
 
+.offers {
+  width: 100%; 
+}
+
 .service {
   background-color: #f2f2f2;
   box-shadow: 1px 1px 1px #888888;
@@ -155,9 +165,6 @@ li a:hover {
   font-family: "Oswald";
   font-size: 1.5em;
   line-height: 1.6em; }
-
-.service p {
-  margin: 1em 1em 1em 1em; }
 
 .service h2 {
   margin: 1em 0 0 0;
@@ -176,8 +183,7 @@ li a:hover {
   width: 30%;
   display: inline-block;
   background-color: #f2f2f2;
-  margin: 0.4em 0.3em 0.4em 0.3em;
-  box-shadow: 1px 1px 1px #888888; }
+  margin: 1em 0.3em 1em 0.3em; }
 
 .picwork {
   height: 15em; }
@@ -196,12 +202,6 @@ li a:hover {
   background-image: url("../img/zxfluxlol2.jpg");
   background-repeat: no-repeat;
   background-size: 600px 240px; }
-
-.company p {
-  font-family: "Oswald";
-  font-size: 1.5em;
-  line-height: 1.6em;
-  margin-bottom: 1em; }
 
 .mike:hover {
   transform: scale(1.2, 1.2); }
@@ -247,12 +247,13 @@ li a:hover {
   top: 80%;
   left: 50%;
   color: white;
-  border-right: 5px solid;
-  border-bottom: 5px solid;
-  width: 30px;
-  height: 30px;
-  transform: rotate(-45deg);
-  -webkit-animation: bounce 2s infinite; }
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid white;
+  -webkit-animation: bounce 2s infinite;
+  transform: rotateX(90deg); }
 
 @-webkit-keyframes bounce {
   0%, 20%, 60%, 100% {
@@ -349,7 +350,8 @@ li a:hover {
     display: none; }
 
   h1 {
-    font-size: 52px; }
+    font-size: 52px;
+    padding: 1em 0 0.5em 0; }
 
   li a {
     font-size: 40px;
@@ -358,9 +360,6 @@ li a:hover {
     text-align: center;
     padding: 50px 16px;
     text-decoration: none; }
-
-  .section-header {
-    margin: -1.5em 0 0 0; }
 
   .compName {
     font-size: 60px; }
@@ -454,9 +453,6 @@ li a:hover {
 
   .eytys:hover {
     transform: scale(1.25, 1.25); }
-
-  .bread {
-    width: 75%; }
 
   .adidas {
     background-size: 350px 150px;

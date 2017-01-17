@@ -9,6 +9,7 @@ and (orientation: portrait) {
 
 	h1{
 		font-size: 52px;
+		padding:1em 0 0.5em 0;
 	}
 
 	li a {
@@ -139,10 +140,6 @@ and (orientation: portrait) {
 
 	.eytys:hover{
 		transform:scale(1.25, 1.25);
-	}
-
-	.bread{
-		width:75%;
 	}
 
 	.adidas {
