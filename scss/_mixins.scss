@@ -11,7 +11,7 @@
 }
 
 @mixin sections(){
-    height: 100vh;
+    height: 110vh;
 	width: 100%;
 }
 
@@ -26,12 +26,10 @@
 	color: white;
 	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
-
-@mixin delimeters(){
-    height: 10em;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
+@mixin portraits(){
     background-size: cover;
-	position: relative;
+    border-radius: 200px;
+    height: 390px;
+    width: 265px;
+    margin: 2em 2em 0 2em;
 }
