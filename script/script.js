@@ -4,6 +4,7 @@ function initMap() {
     var map = new google.maps.Map(document.getElementById('map'), {
         center: uluru,
         zoom: 15,
+        scrollwheel: false,
         styles: [
         {elementType: 'geometry', stylers: [{color: '#242f3e'}]},
         {elementType: 'labels.text.stroke', stylers: [{color: '#242f3e'}]},
