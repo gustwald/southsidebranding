@@ -94,7 +94,7 @@ li a {
   font-family: 'Lato';
   display: block;
   color: white;
-  transition: background-color 0.4s ease;
+  transition: all 0.4s ease;
   background-color: #333333;
   text-align: center;
   padding: 25px 16px;
@@ -181,6 +181,7 @@ li a:hover {
   background-image: url("../img/snow.png");
   background-repeat: no-repeat;
   background-size: 300px 70px;
+  transition: all 0.5s ease;
   width: 300px;
   height: 70px;
   margin: 0 auto;
@@ -191,6 +192,7 @@ li a:hover {
   background-image: url("../img/eytys.png");
   background-repeat: no-repeat;
   background-size: 120px 70px;
+  transition: all 0.5s ease;
   width: 120px;
   height: 70px;
   margin: 0 auto;
@@ -201,6 +203,7 @@ li a:hover {
   background-image: url("../img/adidas2.png");
   background-repeat: no-repeat;
   background-size: 250px 100px;
+  transition: all 0.5s ease;
   width: 250px;
   height: 100px;
   margin: 0 auto;
