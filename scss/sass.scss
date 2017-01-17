@@ -97,11 +97,14 @@ li a {
   font-family: 'Lato';
   display: block;
   color: white;
+  transition: background-color 0.4s ease;
+  background-color: #333333;
   text-align: center;
   padding: 25px 16px;
   text-decoration: none;
 }
 li a:hover{
+  background-color: #1F1F1F;
   color: #32ffb1;
 }
 .contact{

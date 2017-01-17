@@ -44,10 +44,6 @@ and (orientation: portrait) {
 		text-decoration: none;
 	}
 
-	.section-header{
-		margin: -1.5em 0 0 0;
-	}
-
 	.compName{
 		font-size: 60px;
 	}
@@ -197,6 +193,15 @@ and (orientation: portrait) {
 	.office{
 		margin-top: 2em;
 	}
+
+    .liam{
+      margin-top:5em;
+    }
+
+    .gustav{
+      margin-top: 5em;
+    }
+
 }
 
 @media screen  and (min-device-width: 667px){
