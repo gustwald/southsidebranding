@@ -40,6 +40,7 @@ html{
 .logo{
   height: 10%;
   width: 10%;
+  padding: 0.5em 0 0 0.5em;
 }
 
 hr{
@@ -77,10 +78,6 @@ h2{
   @include compName;
 }
 
-.logo{
-  padding: 0.5em 0 0 0.5em;
-}
-
 ul {
   list-style-type: none;
   margin: 0;
@@ -103,6 +100,7 @@ li a {
   padding: 25px 16px;
   text-decoration: none;
 }
+
 li a:hover{
   background-color: #1F1F1F;
   color: #32ffb1;
@@ -110,51 +108,15 @@ li a:hover{
 .contact{
   height: auto;
 }
-.contact-information{
-  font-family: 'Lato', sans-serif;
-  font-size: 16px;
-  margin: 2em 0 0 0;
-}
-.information{
-  font-family: 'Lato', sans-serif;
-  font-size: 16px;
-  margin: 1em 0 0 0;
-}
-//offers
+
 .offers {
   width:100%;
-}
-
-.service{
-  background-color:#f2f2f2;
-  box-shadow: 1px 1px 1px #888888;
-  // border: 3px solid #333333;
-  // border-radius: 3px;
-  line-height: 1.6em;
-  margin: 0 0.5em 1em 0.5em;
-}
-
-.service-bread{
-  font-family: $headingFont;
-  font-size: 1.5em;
-  line-height: 1.6em;
-}
-
-// .service p{
-//   margin: 1em 1em 1em 1em;
-// }
-
-.service h2{
-  margin: 1em 0 0 0;
-  text-align: center;
-  font-size: 2em;
 }
 
 .work {
   width:100%;
 }
 
-//work
 .workcontainer {
   display:flex;
   justify-content:center;
@@ -194,18 +156,6 @@ li a:hover{
   background-size:600px 240px;
 }
 
-.mike:hover{
-  transform: scale(1.2, 1.2);
-}
-
-.eytys:hover{
-  transform:scale(1.2, 1.2);
-}
-
-.adidas:hover{
-  transform:scale(1.2, 1.2);
-}
-
 .mike{
   background-image: url("../img/snow.png");
   background-repeat:no-repeat;
@@ -216,6 +166,10 @@ li a:hover{
   margin:0 auto;
   margin-top:3rem;
   text-align:center;
+}
+
+.mike:hover{
+  transform: scale(1.2, 1.2);
 }
 
 .eytys{
@@ -230,6 +184,10 @@ li a:hover{
   text-align:center;
 }
 
+.eytys:hover{
+  transform:scale(1.2, 1.2);
+}
+
 .adidas{
   background-image: url("../img/adidas2.png");
   background-repeat:no-repeat;
@@ -240,6 +198,10 @@ li a:hover{
   margin:0 auto;
   margin-top:1.5rem;
   text-align:center;
+}
+
+.adidas:hover{
+  transform:scale(1.2, 1.2);
 }
 
 .triangle {
@@ -261,7 +223,7 @@ li a:hover{
   40%  { -webkit-transform: translateY(-20px); }
   80% { -webkit-transform: translateY(-10px); }
 }
-//contact
+
 .container-contact{
    display: -webkit-flex;
    display: flex;
@@ -269,6 +231,7 @@ li a:hover{
    width: 100%;
    height: 450px;
 }
+
 .info-container{
    display: -webkit-flex;
    display: flex;
@@ -276,6 +239,7 @@ li a:hover{
    width: 100%;
    height: 200px;
 }
+
 .info-children{
 text-align: center;
 font-family: 'Lato', sans-serif;
@@ -283,6 +247,7 @@ width: 265px;
 height: 390px;
 margin: 2em;
 }
+
 .info-name{
   font-size: 22px;
   margin: 1em;
@@ -310,7 +275,6 @@ margin: 2em;
   position: relative;
 }
 
-//footer
 .footer{
   color: #ffffff;
   display: flex;
@@ -318,15 +282,6 @@ margin: 2em;
   height: 250px;
   width:100%;
   background-color: #333333;
-}
-
-.footer ul{
-  margin: 5em  0 0 5em;
-}
-
-.footer-info{
-  display: flex;
-  flex-direction: column;
 }
 
 .footer-text{

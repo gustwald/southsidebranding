@@ -2,29 +2,40 @@
 and (min-width: 320px)
 and (-webkit-min-device-pixel-ratio: 2)
 and (orientation: portrait) {
+
 	.info-children{
 		display:none;
 	}
+
 	.martin{
 		margin: 0 auto;
 		text-align: center;
 		margin-bottom: 1em;
 		margin-top: 2em;
+		height: 300px;
 	}
+
 	.liam{
 		margin: 0 auto;
 		text-align: center;
 		margin-bottom: 1em;
+		margin-top:5em;
+		height: 300px;
 	}
+
 	.gustav{
 		margin: 0 auto;
 		text-align: center;
+		margin-top: 5em;
+		height: 300px;
 	}
+
 	.container-contact{
 		height: auto;
 		justify-content: space-between;
 		flex-direction: column;
 	}
+
 	.logo{
 		display:none;
 	}
@@ -48,37 +59,13 @@ and (orientation: portrait) {
 		font-size: 60px;
 	}
 
-	.bread-about{
-		font-family: 'Lato', sans-serif;
-		font-size: 38px;
-		text-align: center;
-		line-height: 46px;
-		padding-top:1em;
-		margin:0 auto;
-		width:60%;
-	}
-
 	.navigation{
 		display: flex;
 		justify-content: center;
 	}
+
 	.contact{
 		height: 2400px;
-	}
-	.portrait{
-		display: block;
-	}
-
-	.liam{
-		height: 300px;
-	}
-
-	.gustav{
-		height: 300px;
-	}
-
-	.martin{
-		height: 300px;
 	}
 
 	.offers{
@@ -86,39 +73,9 @@ and (orientation: portrait) {
 		color: #333;
 	}
 
-	.offer-content{
-		margin: 0 5% 0 5%;
-		width: 90%;
-	}
-
-	.service-row{
-		display: block;
-	}
-
-	.service{
-		display: block;
-	}
-
-	.service h2{
-		margin-top: 0.5em;
-		padding: 1em 0 0 0;
-	}
-
-	.service p{
-		text-align: center;
-		margin: 0.5em 1em 0.5em 1em;
-		padding: 0 0 1em 0;
-	}
-
 	.footer{
 		flex-direction: column;
 		height: 25em;
-	}
-
-	.footer-info{
-		margin: 10% 10% 0 10%;
-		justify-content: space-around;
-		height: 7em;
 	}
 
 	.foot-contact{
@@ -158,6 +115,13 @@ and (orientation: portrait) {
 		transform:scale(1.1, 1.1);
 	}
 
+	.eytys {
+		background-size:250px 150px;
+		width:250px;
+		height:150px;
+		margin-top:2em;
+	}
+
 	.eytys:hover{
 		transform:scale(1.25, 1.25);
 	}
@@ -173,62 +137,24 @@ and (orientation: portrait) {
 		transform:scale(1.15, 1.15);
 	}
 
-	.eytys {
-		background-size:250px 150px;
-		width:250px;
-		height:150px;
-		margin-top:2em;
-	}
-
 	.snow {
 		display:none;
 	}
+
 	.doja {
 		display:none;
 	}
+
 	.adid{
 		display:none;
 	}
-
-	.office{
-		margin-top: 2em;
-	}
-
-    .liam{
-      margin-top:5em;
-    }
-
-    .gustav{
-      margin-top: 5em;
-    }
-
 }
 
 @media screen  and (min-device-width: 667px){
-	.service-row {
-		display: flex;
-		flex-direction: row;
-	}
 
-	.service{
-		width: 50%
-	}
-
-	.service h2{
-		margin-top: 1em;
-	}
-
-	.service p{
-		margin: 1em 1em 1em 1em;
-	}
 	.footer{
 		flex-direction: row;
 		height: 200px;
-	}
-
-	.footer-info{
-		width: 25%;
-		margin: 2em 0 0 10%;
 	}
 
 	.foot-contact{
@@ -244,12 +170,5 @@ and (orientation: portrait) {
 
 	.media-links img{
 		margin: 0 0 0 1em;
-	}
-}
-
-@media screen and (min-width: 1024px){
-
-	.offer-content{
-		margin: 0 3.8% 0 3.8%
 	}
 }

@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1085696-78a4-42ab-8da8-a91c2d69a722" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/5a219722cb0a72e349df2b3bdafd77ced49006d1/sass.scssc" afterPath="$PROJECT_DIR$/.sass-cache/5a219722cb0a72e349df2b3bdafd77ced49006d1/sass.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/sass.css" afterPath="$PROJECT_DIR$/css/sass.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/sass.css.map" afterPath="$PROJECT_DIR$/css/sass.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/_mediaQueris.scss" afterPath="$PROJECT_DIR$/scss/_mediaQueris.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/sass.scss" afterPath="$PROJECT_DIR$/scss/sass.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -25,48 +25,76 @@
     <favorites_list name="southsidebranding" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/script/script.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="807">
-              <caret line="98" column="0" lean-forward="true" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sass.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scss/sass.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="820">
-              <caret line="289" column="2" lean-forward="true" selection-start-line="289" selection-start-column="2" selection-end-line="289" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_mediaQueris.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scss/_mediaQueris.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="41" column="33" lean-forward="true" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/script/script.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1666">
+                  <caret line="99" column="0" lean-forward="false" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
+                  <folding>
+                    <marker date="1485086735451" expanded="true" signature="33:2717" ph="{...}" />
+                    <marker date="1485086735451" expanded="true" signature="139:2609" ph="{&quot;center&quot;: uluru...}" />
+                    <marker date="1485086735451" expanded="true" signature="226:2594" ph="[...]" />
+                    <marker date="1485086735451" expanded="true" signature="452:602" ph="{&quot;featureType&quot;: 'administrative.locality'...}" />
+                    <marker date="1485086735451" expanded="true" signature="612:742" ph="{&quot;featureType&quot;: 'poi'...}" />
+                    <marker date="1485086735451" expanded="true" signature="752:879" ph="{&quot;featureType&quot;: 'poi.park'...}" />
+                    <marker date="1485086735451" expanded="true" signature="889:1024" ph="{&quot;featureType&quot;: 'poi.park'...}" />
+                    <marker date="1485086735451" expanded="true" signature="1034:1157" ph="{&quot;featureType&quot;: 'road'...}" />
+                    <marker date="1485086735451" expanded="true" signature="1167:1297" ph="{&quot;featureType&quot;: 'road'...}" />
+                    <marker date="1485086735451" expanded="true" signature="1307:1438" ph="{&quot;featureType&quot;: 'road'...}" />
+                    <marker date="1485086735451" expanded="true" signature="1448:1579" ph="{&quot;featureType&quot;: 'road.highway'...}" />
+                    <marker date="1485086735451" expanded="true" signature="1589:1727" ph="{&quot;featureType&quot;: 'road.highway'...}" />
+                    <marker date="1485086735451" expanded="true" signature="1737:1876" ph="{&quot;featureType&quot;: 'road.highway'...}" />
+                    <marker date="1485086735451" expanded="true" signature="1886:2012" ph="{&quot;featureType&quot;: 'transit'...}" />
+                    <marker date="1485086735451" expanded="true" signature="2022:2164" ph="{&quot;featureType&quot;: 'transit.station'...}" />
+                    <marker date="1485086735451" expanded="true" signature="2174:2298" ph="{&quot;featureType&quot;: 'water'...}" />
+                    <marker date="1485086735451" expanded="true" signature="2308:2440" ph="{&quot;featureType&quot;: 'water'...}" />
+                    <marker date="1485086735451" expanded="true" signature="2450:2584" ph="{&quot;featureType&quot;: 'water'...}" />
+                    <marker date="1485086735451" expanded="true" signature="2652:2709" ph="{&quot;position&quot;: uluru...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="sass.scss" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/scss/sass.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="187">
+                  <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_mediaQueris.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/scss/_mediaQueris.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="790">
+                  <caret line="173" column="1" lean-forward="false" selection-start-line="173" selection-start-column="1" selection-end-line="173" selection-end-column="1" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="118">
+                  <caret line="126" column="14" lean-forward="true" selection-start-line="126" selection-start-column="14" selection-end-line="126" selection-end-column="14" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -80,6 +108,15 @@
       <find>all</find>
       <find>flex</find>
       <find>zenscroll</find>
+      <find>h1</find>
+      <find>h</find>
+      <find>contact</find>
+      <find>information</find>
+      <find>offers</find>
+      <find>work</find>
+      <find>liam</find>
+      <find>martin</find>
+      <find>gustav</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -89,10 +126,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/css/sass.css" />
+        <option value="$PROJECT_DIR$/script/script.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/scss/_mediaQueris.scss" />
         <option value="$PROJECT_DIR$/scss/sass.scss" />
-        <option value="$PROJECT_DIR$/script/script.js" />
       </list>
     </option>
   </component>
@@ -103,9 +140,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="557" />
-    <option name="width" value="1370" />
-    <option name="height" value="1047" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -122,7 +160,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -180,6 +217,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -189,6 +227,7 @@
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
     <UpdatedFiles>
@@ -206,10 +245,7 @@
           <option name="myId" value="UPDATED" />
           <PATH vcs="Git" revision="">$PROJECT_DIR$/.sass-cache/d6b1fa1f5f85ad9aded08e9c42e831395d09e947/_mediaQueris.scssc</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/.sass-cache/d6b1fa1f5f85ad9aded08e9c42e831395d09e947/sass.scssc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/css/sass.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/css/sass.css.map</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/scss/_mediaQueris.scss</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/scss/sass.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/script/script.js</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Created" />
@@ -337,6 +373,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -375,6 +417,10 @@
       <option name="presentableId" value="Default" />
       <updated>1482402652346</updated>
       <workItem from="1482402653540" duration="64950000" />
+      <workItem from="1484651087855" duration="48000" />
+      <workItem from="1484651578274" duration="167000" />
+      <workItem from="1484651768253" duration="1152000" />
+      <workItem from="1485086670946" duration="1455000" />
     </task>
     <task id="LOCAL-00001" summary="uppdaterade paragraf för test">
       <created>1482403061048</created>
@@ -492,28 +538,28 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64950000" />
+    <option name="totallyTimeSpent" value="67772000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="557" y="0" width="1370" height="1047" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11350975" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1125" sideWeight="0.5" order="1" side_tool="true" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.50417536" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.49582464" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875264" sideWeight="0.49582464" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -522,12 +568,12 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.50417536" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32875264" sideWeight="0.49582464" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11350975" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11273486" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -566,18 +612,51 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/sass.css.map">
+    <entry file="file://$PROJECT_DIR$/script/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        <state relative-caret-position="1666">
+          <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+          <folding>
+            <marker date="1485086735451" expanded="true" signature="33:2717" ph="{...}" />
+            <marker date="1485086735451" expanded="true" signature="139:2609" ph="{&quot;center&quot;: uluru...}" />
+            <marker date="1485086735451" expanded="true" signature="226:2594" ph="[...]" />
+            <marker date="1485086735451" expanded="true" signature="452:602" ph="{&quot;featureType&quot;: 'administrative.locality'...}" />
+            <marker date="1485086735451" expanded="true" signature="612:742" ph="{&quot;featureType&quot;: 'poi'...}" />
+            <marker date="1485086735451" expanded="true" signature="752:879" ph="{&quot;featureType&quot;: 'poi.park'...}" />
+            <marker date="1485086735451" expanded="true" signature="889:1024" ph="{&quot;featureType&quot;: 'poi.park'...}" />
+            <marker date="1485086735451" expanded="true" signature="1034:1157" ph="{&quot;featureType&quot;: 'road'...}" />
+            <marker date="1485086735451" expanded="true" signature="1167:1297" ph="{&quot;featureType&quot;: 'road'...}" />
+            <marker date="1485086735451" expanded="true" signature="1307:1438" ph="{&quot;featureType&quot;: 'road'...}" />
+            <marker date="1485086735451" expanded="true" signature="1448:1579" ph="{&quot;featureType&quot;: 'road.highway'...}" />
+            <marker date="1485086735451" expanded="true" signature="1589:1727" ph="{&quot;featureType&quot;: 'road.highway'...}" />
+            <marker date="1485086735451" expanded="true" signature="1737:1876" ph="{&quot;featureType&quot;: 'road.highway'...}" />
+            <marker date="1485086735451" expanded="true" signature="1886:2012" ph="{&quot;featureType&quot;: 'transit'...}" />
+            <marker date="1485086735451" expanded="true" signature="2022:2164" ph="{&quot;featureType&quot;: 'transit.station'...}" />
+            <marker date="1485086735451" expanded="true" signature="2174:2298" ph="{&quot;featureType&quot;: 'water'...}" />
+            <marker date="1485086735451" expanded="true" signature="2308:2440" ph="{&quot;featureType&quot;: 'water'...}" />
+            <marker date="1485086735451" expanded="true" signature="2450:2584" ph="{&quot;featureType&quot;: 'water'...}" />
+            <marker date="1485086735451" expanded="true" signature="2652:2709" ph="{&quot;position&quot;: uluru...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/sass.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4913">
+          <caret line="289" column="0" lean-forward="false" selection-start-line="289" selection-start-column="0" selection-end-line="289" selection-end-column="0" />
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="sourcemapFileViewerProvider">
-        <state />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_mediaQueris.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="50" column="17" lean-forward="false" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/_mixins.scss">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -585,34 +664,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/sass.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/script/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="807">
-          <caret line="98" column="0" lean-forward="true" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="1666">
+          <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+          <folding>
+            <marker date="1485086735451" expanded="true" signature="33:2717" ph="{...}" />
+            <marker date="1485086735451" expanded="true" signature="139:2609" ph="{&quot;center&quot;: uluru...}" />
+            <marker date="1485086735451" expanded="true" signature="226:2594" ph="[...]" />
+            <marker date="1485086735451" expanded="true" signature="452:602" ph="{&quot;featureType&quot;: 'administrative.locality'...}" />
+            <marker date="1485086735451" expanded="true" signature="612:742" ph="{&quot;featureType&quot;: 'poi'...}" />
+            <marker date="1485086735451" expanded="true" signature="752:879" ph="{&quot;featureType&quot;: 'poi.park'...}" />
+            <marker date="1485086735451" expanded="true" signature="889:1024" ph="{&quot;featureType&quot;: 'poi.park'...}" />
+            <marker date="1485086735451" expanded="true" signature="1034:1157" ph="{&quot;featureType&quot;: 'road'...}" />
+            <marker date="1485086735451" expanded="true" signature="1167:1297" ph="{&quot;featureType&quot;: 'road'...}" />
+            <marker date="1485086735451" expanded="true" signature="1307:1438" ph="{&quot;featureType&quot;: 'road'...}" />
+            <marker date="1485086735451" expanded="true" signature="1448:1579" ph="{&quot;featureType&quot;: 'road.highway'...}" />
+            <marker date="1485086735451" expanded="true" signature="1589:1727" ph="{&quot;featureType&quot;: 'road.highway'...}" />
+            <marker date="1485086735451" expanded="true" signature="1737:1876" ph="{&quot;featureType&quot;: 'road.highway'...}" />
+            <marker date="1485086735451" expanded="true" signature="1886:2012" ph="{&quot;featureType&quot;: 'transit'...}" />
+            <marker date="1485086735451" expanded="true" signature="2022:2164" ph="{&quot;featureType&quot;: 'transit.station'...}" />
+            <marker date="1485086735451" expanded="true" signature="2174:2298" ph="{&quot;featureType&quot;: 'water'...}" />
+            <marker date="1485086735451" expanded="true" signature="2308:2440" ph="{&quot;featureType&quot;: 'water'...}" />
+            <marker date="1485086735451" expanded="true" signature="2450:2584" ph="{&quot;featureType&quot;: 'water'...}" />
+            <marker date="1485086735451" expanded="true" signature="2652:2709" ph="{&quot;position&quot;: uluru...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/sass.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="820">
-          <caret line="289" column="2" lean-forward="true" selection-start-line="289" selection-start-column="2" selection-end-line="289" selection-end-column="2" />
+        <state relative-caret-position="4913">
+          <caret line="289" column="0" lean-forward="false" selection-start-line="289" selection-start-column="0" selection-end-line="289" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/_mediaQueris.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -620,7 +711,187 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="697">
-          <caret line="41" column="33" lean-forward="true" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
+          <caret line="41" column="33" lean-forward="false" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1666">
+          <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+          <folding>
+            <marker date="1485086735451" expanded="true" signature="33:2717" ph="{...}" />
+            <marker date="1485086735451" expanded="true" signature="139:2609" ph="{&quot;center&quot;: uluru...}" />
+            <marker date="1485086735451" expanded="true" signature="226:2594" ph="[...]" />
+            <marker date="1485086735451" expanded="true" signature="452:602" ph="{&quot;featureType&quot;: 'administrative.locality'...}" />
+            <marker date="1485086735451" expanded="true" signature="612:742" ph="{&quot;featureType&quot;: 'poi'...}" />
+            <marker date="1485086735451" expanded="true" signature="752:879" ph="{&quot;featureType&quot;: 'poi.park'...}" />
+            <marker date="1485086735451" expanded="true" signature="889:1024" ph="{&quot;featureType&quot;: 'poi.park'...}" />
+            <marker date="1485086735451" expanded="true" signature="1034:1157" ph="{&quot;featureType&quot;: 'road'...}" />
+            <marker date="1485086735451" expanded="true" signature="1167:1297" ph="{&quot;featureType&quot;: 'road'...}" />
+            <marker date="1485086735451" expanded="true" signature="1307:1438" ph="{&quot;featureType&quot;: 'road'...}" />
+            <marker date="1485086735451" expanded="true" signature="1448:1579" ph="{&quot;featureType&quot;: 'road.highway'...}" />
+            <marker date="1485086735451" expanded="true" signature="1589:1727" ph="{&quot;featureType&quot;: 'road.highway'...}" />
+            <marker date="1485086735451" expanded="true" signature="1737:1876" ph="{&quot;featureType&quot;: 'road.highway'...}" />
+            <marker date="1485086735451" expanded="true" signature="1886:2012" ph="{&quot;featureType&quot;: 'transit'...}" />
+            <marker date="1485086735451" expanded="true" signature="2022:2164" ph="{&quot;featureType&quot;: 'transit.station'...}" />
+            <marker date="1485086735451" expanded="true" signature="2174:2298" ph="{&quot;featureType&quot;: 'water'...}" />
+            <marker date="1485086735451" expanded="true" signature="2308:2440" ph="{&quot;featureType&quot;: 'water'...}" />
+            <marker date="1485086735451" expanded="true" signature="2450:2584" ph="{&quot;featureType&quot;: 'water'...}" />
+            <marker date="1485086735451" expanded="true" signature="2652:2709" ph="{&quot;position&quot;: uluru...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/sass.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4913">
+          <caret line="289" column="0" lean-forward="true" selection-start-line="289" selection-start-column="0" selection-end-line="289" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_mediaQueris.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1666">
+          <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+          <folding>
+            <marker date="1485086735451" expanded="true" signature="33:2717" ph="{...}" />
+            <marker date="1485086735451" expanded="true" signature="139:2609" ph="{&quot;center&quot;: uluru...}" />
+            <marker date="1485086735451" expanded="true" signature="226:2594" ph="[...]" />
+            <marker date="1485086735451" expanded="true" signature="452:602" ph="{&quot;featureType&quot;: 'administrative.locality'...}" />
+            <marker date="1485086735451" expanded="true" signature="612:742" ph="{&quot;featureType&quot;: 'poi'...}" />
+            <marker date="1485086735451" expanded="true" signature="752:879" ph="{&quot;featureType&quot;: 'poi.park'...}" />
+            <marker date="1485086735451" expanded="true" signature="889:1024" ph="{&quot;featureType&quot;: 'poi.park'...}" />
+            <marker date="1485086735451" expanded="true" signature="1034:1157" ph="{&quot;featureType&quot;: 'road'...}" />
+            <marker date="1485086735451" expanded="true" signature="1167:1297" ph="{&quot;featureType&quot;: 'road'...}" />
+            <marker date="1485086735451" expanded="true" signature="1307:1438" ph="{&quot;featureType&quot;: 'road'...}" />
+            <marker date="1485086735451" expanded="true" signature="1448:1579" ph="{&quot;featureType&quot;: 'road.highway'...}" />
+            <marker date="1485086735451" expanded="true" signature="1589:1727" ph="{&quot;featureType&quot;: 'road.highway'...}" />
+            <marker date="1485086735451" expanded="true" signature="1737:1876" ph="{&quot;featureType&quot;: 'road.highway'...}" />
+            <marker date="1485086735451" expanded="true" signature="1886:2012" ph="{&quot;featureType&quot;: 'transit'...}" />
+            <marker date="1485086735451" expanded="true" signature="2022:2164" ph="{&quot;featureType&quot;: 'transit.station'...}" />
+            <marker date="1485086735451" expanded="true" signature="2174:2298" ph="{&quot;featureType&quot;: 'water'...}" />
+            <marker date="1485086735451" expanded="true" signature="2308:2440" ph="{&quot;featureType&quot;: 'water'...}" />
+            <marker date="1485086735451" expanded="true" signature="2450:2584" ph="{&quot;featureType&quot;: 'water'...}" />
+            <marker date="1485086735451" expanded="true" signature="2652:2709" ph="{&quot;position&quot;: uluru...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/sass.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4913">
+          <caret line="289" column="0" lean-forward="true" selection-start-line="289" selection-start-column="0" selection-end-line="289" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_mediaQueris.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/sass.css.map">
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_mixins.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/sass.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1666">
+          <caret line="99" column="0" lean-forward="false" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
+          <folding>
+            <marker date="1485086735451" expanded="true" signature="33:2717" ph="{...}" />
+            <marker date="1485086735451" expanded="true" signature="139:2609" ph="{&quot;center&quot;: uluru...}" />
+            <marker date="1485086735451" expanded="true" signature="226:2594" ph="[...]" />
+            <marker date="1485086735451" expanded="true" signature="452:602" ph="{&quot;featureType&quot;: 'administrative.locality'...}" />
+            <marker date="1485086735451" expanded="true" signature="612:742" ph="{&quot;featureType&quot;: 'poi'...}" />
+            <marker date="1485086735451" expanded="true" signature="752:879" ph="{&quot;featureType&quot;: 'poi.park'...}" />
+            <marker date="1485086735451" expanded="true" signature="889:1024" ph="{&quot;featureType&quot;: 'poi.park'...}" />
+            <marker date="1485086735451" expanded="true" signature="1034:1157" ph="{&quot;featureType&quot;: 'road'...}" />
+            <marker date="1485086735451" expanded="true" signature="1167:1297" ph="{&quot;featureType&quot;: 'road'...}" />
+            <marker date="1485086735451" expanded="true" signature="1307:1438" ph="{&quot;featureType&quot;: 'road'...}" />
+            <marker date="1485086735451" expanded="true" signature="1448:1579" ph="{&quot;featureType&quot;: 'road.highway'...}" />
+            <marker date="1485086735451" expanded="true" signature="1589:1727" ph="{&quot;featureType&quot;: 'road.highway'...}" />
+            <marker date="1485086735451" expanded="true" signature="1737:1876" ph="{&quot;featureType&quot;: 'road.highway'...}" />
+            <marker date="1485086735451" expanded="true" signature="1886:2012" ph="{&quot;featureType&quot;: 'transit'...}" />
+            <marker date="1485086735451" expanded="true" signature="2022:2164" ph="{&quot;featureType&quot;: 'transit.station'...}" />
+            <marker date="1485086735451" expanded="true" signature="2174:2298" ph="{&quot;featureType&quot;: 'water'...}" />
+            <marker date="1485086735451" expanded="true" signature="2308:2440" ph="{&quot;featureType&quot;: 'water'...}" />
+            <marker date="1485086735451" expanded="true" signature="2450:2584" ph="{&quot;featureType&quot;: 'water'...}" />
+            <marker date="1485086735451" expanded="true" signature="2652:2709" ph="{&quot;position&quot;: uluru...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_mediaQueris.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="790">
+          <caret line="173" column="1" lean-forward="false" selection-start-line="173" selection-start-column="1" selection-end-line="173" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="126" column="14" lean-forward="true" selection-start-line="126" selection-start-column="14" selection-end-line="126" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/sass.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
           <folding />
         </state>
       </provider>
