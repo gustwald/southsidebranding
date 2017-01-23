@@ -14,7 +14,7 @@
 <body>
 <nav class="topNav">
 	<ul class="navigation">
-        <a href="index.html"><img class="logo" src="img/loggaSouthside.png"/></a>
+        <a href="index.html#top"><img class="logo" id="logo" src="img/loggaSouthside.png"/></a>
 		<li><a href="index.html#about" id="abt">OM</a></li>
 		<li><a href="index.html#offers" id="ofs">TJÄNSTER</a></li>
         <li><a href="index.html#work" id="wrk">ARBETEN</a></li>
@@ -157,8 +157,39 @@
         </div>
     </footer>
 </section>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="script/script.js"></script>
+<script>
+    $("#cont").click(function() {
+        $('html, body').animate({
+            scrollTop: $("#contact").offset().top
+        }, 1000);
+    });
+
+    $("#wrk").click(function() {
+        $('html, body').animate({
+            scrollTop: $("#work").offset().top
+        }, 1000);
+    });
+
+    $("#ofs").click(function() {
+        $('html, body').animate({
+            scrollTop: $("#offers").offset().top
+        }, 1000);
+    });
+
+    $("#abt").click(function() {
+        $('html, body').animate({
+            scrollTop: $("#about").offset().top
+        }, 1000);
+    });
+
+    $("#logo").click(function() {
+        $('html, body').animate({
+            scrollTop: $("#top").offset().top
+        }, 500);
+    });
+</script>
 </body>
 
 </html>
