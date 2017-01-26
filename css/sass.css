@@ -27,7 +27,7 @@ html {
   bottom: 0;
   transform-origin: top right;
   transform: skewY(3deg);
-  background-image: url("../img/landing.jpg");
+  background-image: url("../img/mac1.jpg");
   background-size: cover;
   background-repeat: no-repeat; }
 
@@ -37,7 +37,8 @@ html {
 
 .logo {
   height: 10%;
-  width: 10%; }
+  width: 10%;
+  padding: 0.5em 0 0 0.5em; }
 
 hr {
   margin: 6em 20% 0 20%;
@@ -68,73 +69,51 @@ h2 {
 
 .compName {
   text-align: center;
-  font-family: 'Rock Salt', cursive;
-  font-size: 2em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 4em;
   position: absolute;
-  top: 35%;
+  top: 30%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; }
+  color: black; }
 
-.logo {
-  padding: 0.5em 0 0 0.5em; }
+.compName2 {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 4em;
+  position: absolute;
+  top: 38%;
+  left: 55%;
+  color: black; }
 
 ul {
+  display: flex;
+  justify-content: flex-end;
   list-style-type: none;
   margin: 0;
   padding: 0 2em 0 0;
   overflow: hidden;
-  background-color: #333; }
-
-li {
-  float: right; }
+  background-color: white; }
 
 li a {
-  font-family: 'Lato';
+  font-family: 'Montserrat', sans-serif;
   display: block;
-  color: white;
+  color: black;
   transition: all 0.4s ease;
-  background-color: #333333;
   text-align: center;
-  padding: 25px 16px;
+  padding: 20px 16px;
   text-decoration: none; }
 
 li a:hover {
-  background-color: #1F1F1F;
+  background-color: #F9F9F9;
   color: #32ffb1; }
 
 .contact {
   height: auto; }
 
-.contact-information {
-  font-family: 'Lato', sans-serif;
-  font-size: 16px;
-  margin: 2em 0 0 0; }
-
-.information {
-  font-family: 'Lato', sans-serif;
-  font-size: 16px;
-  margin: 1em 0 0 0; }
-
 .offers {
   width: 100%; }
-
-.service {
-  background-color: #f2f2f2;
-  box-shadow: 1px 1px 1px #888888;
-  line-height: 1.6em;
-  margin: 0 0.5em 1em 0.5em; }
-
-.service-bread {
-  font-family: "Oswald";
-  font-size: 1.5em;
-  line-height: 1.6em; }
-
-.service h2 {
-  margin: 1em 0 0 0;
-  text-align: center;
-  font-size: 2em; }
 
 .work {
   width: 100%; }
@@ -168,15 +147,6 @@ li a:hover {
   background-repeat: no-repeat;
   background-size: 600px 240px; }
 
-.mike:hover {
-  transform: scale(1.2, 1.2); }
-
-.eytys:hover {
-  transform: scale(1.2, 1.2); }
-
-.adidas:hover {
-  transform: scale(1.2, 1.2); }
-
 .mike {
   background-image: url("../img/snow.png");
   background-repeat: no-repeat;
@@ -187,6 +157,9 @@ li a:hover {
   margin: 0 auto;
   margin-top: 3rem;
   text-align: center; }
+
+.mike:hover {
+  transform: scale(1.2, 1.2); }
 
 .eytys {
   background-image: url("../img/eytys.png");
@@ -199,6 +172,9 @@ li a:hover {
   margin-top: 3.1rem;
   text-align: center; }
 
+.eytys:hover {
+  transform: scale(1.2, 1.2); }
+
 .adidas {
   background-image: url("../img/adidas2.png");
   background-repeat: no-repeat;
@@ -209,6 +185,9 @@ li a:hover {
   margin: 0 auto;
   margin-top: 1.5rem;
   text-align: center; }
+
+.adidas:hover {
+  transform: scale(1.2, 1.2); }
 
 .triangle {
   position: absolute;
@@ -289,16 +268,9 @@ li a:hover {
   color: #ffffff;
   display: flex;
   justify-content: center;
-  height: 250px;
+  height: 230px;
   width: 100%;
   background-color: #333333; }
-
-.footer ul {
-  margin: 5em  0 0 5em; }
-
-.footer-info {
-  display: flex;
-  flex-direction: column; }
 
 .footer-text {
   font-family: 'Lato', sans-serif;
@@ -320,10 +292,15 @@ li a:hover {
   width: 3em; }
 
 @media only screen and (min-width: 320px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  ul {
+    padding: 0; }
+
   .info-children {
     display: none; }
 
   .martin {
+    width: 25em;
+    height: 35em;
     margin: 0 auto;
     text-align: center;
     margin-bottom: 1em;
@@ -332,11 +309,15 @@ li a:hover {
   .liam {
     margin: 0 auto;
     text-align: center;
-    margin-bottom: 1em; }
+    margin-bottom: 1em;
+    margin-top: 5em;
+    height: 300px; }
 
   .gustav {
     margin: 0 auto;
-    text-align: center; }
+    text-align: center;
+    margin-top: 5em;
+    height: 300px; }
 
   .container-contact {
     height: auto;
@@ -353,22 +334,25 @@ li a:hover {
   li a {
     font-size: 40px;
     display: block;
-    color: white;
+    color: black;
     text-align: center;
     padding: 50px 16px;
     text-decoration: none; }
 
-  .compName {
-    font-size: 60px; }
+  .landing {
+    background-position: center right 95%; }
 
-  .bread-about {
-    font-family: 'Lato', sans-serif;
-    font-size: 38px;
-    text-align: center;
-    line-height: 46px;
-    padding-top: 1em;
-    margin: 0 auto;
-    width: 60%; }
+  .compName {
+    font-size: 90px;
+    left: 0;
+    right: 0;
+    text-align: center; }
+
+  .compName2 {
+    font-size: 90px;
+    left: 0;
+    right: 0;
+    text-align: center; }
 
   .navigation {
     display: flex;
@@ -377,61 +361,29 @@ li a:hover {
   .contact {
     height: 2400px; }
 
-  .portrait {
-    display: block; }
-
-  .liam {
-    height: 300px; }
-
-  .gustav {
-    height: 300px; }
-
-  .martin {
-    height: 300px; }
-
   .offers {
     background-color: #fff;
     color: #333; }
 
-  .offer-content {
-    margin: 0 5% 0 5%;
-    width: 90%; }
-
-  .service-row {
-    display: block; }
-
-  .service {
-    display: block; }
-
-  .service h2 {
-    margin-top: 0.5em;
-    padding: 1em 0 0 0; }
-
-  .service p {
-    text-align: center;
-    margin: 0.5em 1em 0.5em 1em;
-    padding: 0 0 1em 0; }
-
   .footer {
     flex-direction: column;
-    height: 25em; }
-
-  .footer-info {
-    margin: 10% 10% 0 10%;
-    justify-content: space-around;
-    height: 7em; }
+    height: 30em; }
 
   .foot-contact {
     margin: 2em 0 0 10%;
     height: 7em;
     justify-content: space-between; }
 
+  .footer-text {
+    margin: 0.7em 0 0 0;
+    font-size: 2em; }
+
   .media-links {
     margin-left: 10%;
-    margin-top: 35px !important; }
+    margin-top: 8em !important; }
 
   .media-links img {
-    width: 2em;
+    width: 4em;
     margin-right: 1em; }
 
   .workcontainer {
@@ -451,6 +403,12 @@ li a:hover {
   .mike:hover {
     transform: scale(1.1, 1.1); }
 
+  .eytys {
+    background-size: 250px 150px;
+    width: 250px;
+    height: 150px;
+    margin-top: 2em; }
+
   .eytys:hover {
     transform: scale(1.25, 1.25); }
 
@@ -463,12 +421,6 @@ li a:hover {
   .adidas:hover {
     transform: scale(1.15, 1.15); }
 
-  .eytys {
-    background-size: 250px 150px;
-    width: 250px;
-    height: 150px;
-    margin-top: 2em; }
-
   .snow {
     display: none; }
 
@@ -476,37 +428,10 @@ li a:hover {
     display: none; }
 
   .adid {
-    display: none; }
-
-  .office {
-    margin-top: 2em; }
-
-  .liam {
-    margin-top: 5em; }
-
-  .gustav {
-    margin-top: 5em; } }
+    display: none; } }
 @media screen and (min-device-width: 667px) {
-  .service-row {
-    display: flex;
-    flex-direction: row; }
-
-  .service {
-    width: 50%; }
-
-  .service h2 {
-    margin-top: 1em; }
-
-  .service p {
-    margin: 1em 1em 1em 1em; }
-
   .footer {
-    flex-direction: row;
-    height: 200px; }
-
-  .footer-info {
-    width: 25%;
-    margin: 2em 0 0 10%; }
+    flex-direction: row; }
 
   .foot-contact {
     width: 25%;
@@ -519,8 +444,5 @@ li a:hover {
 
   .media-links img {
     margin: 0 0 0 1em; } }
-@media screen and (min-width: 1024px) {
-  .offer-content {
-    margin: 0 3.8% 0 3.8%; } }
 
 /*# sourceMappingURL=sass.css.map */

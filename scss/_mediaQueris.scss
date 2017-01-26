@@ -3,16 +3,21 @@ and (min-width: 320px)
 and (-webkit-min-device-pixel-ratio: 2)
 and (orientation: portrait) {
 
+	ul{
+		padding: 0;
+	}
+
 	.info-children{
 		display:none;
 	}
 
 	.martin{
+		width:25em;
+		height:35em;
 		margin: 0 auto;
 		text-align: center;
 		margin-bottom: 1em;
 		margin-top: 2em;
-		height: 300px;
 	}
 
 	.liam{
@@ -46,17 +51,29 @@ and (orientation: portrait) {
 	}
 
 	li a {
-		//font-family: 'Lato';
 		font-size: 40px;
 		display: block;
-		color: white;
+		color: black;
 		text-align: center;
 		padding: 50px 16px;
 		text-decoration: none;
 	}
+	.landing{
+		background-position: center right 95%;
+	}
 
 	.compName{
-		font-size: 60px;
+		font-size: 90px;
+		left:0;
+		right:0;
+		text-align: center;
+	
+	}
+	.compName2{
+		font-size: 90px;
+		left:0;
+		right:0;
+		text-align: center;
 	}
 
 	.navigation{
@@ -75,7 +92,7 @@ and (orientation: portrait) {
 
 	.footer{
 		flex-direction: column;
-		height: 25em;
+		height: 30em;
 	}
 
 	.foot-contact{
@@ -84,13 +101,18 @@ and (orientation: portrait) {
 		justify-content: space-between;
 	}
 
+	.footer-text{
+		margin: 0.7em 0 0 0;
+		font-size: 2em;
+	}
+
 	.media-links{
 		margin-left: 10%;
-		margin-top: 35px !important;
+		margin-top: 8em !important;
 	}
 
 	.media-links img{
-		width: 2em;
+		width: 4em;
 		margin-right: 1em;
 	}
 
@@ -154,7 +176,6 @@ and (orientation: portrait) {
 
 	.footer{
 		flex-direction: row;
-		height: 200px;
 	}
 
 	.foot-contact{

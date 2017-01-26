@@ -12,6 +12,7 @@ html{
 }
 
 .topNav{
+
   position: fixed;
   width: 100%;
   z-index: 100000;
@@ -28,7 +29,7 @@ html{
 
 .landing::after{
   @include skew;
-  background-image: url("../img/landing.jpg");
+  background-image: url("../img/mac1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -76,33 +77,31 @@ h2{
 
 .compName{
   @include compName;
+}.compName2{
+  @include compName2;
 }
 
 ul {
+  display: flex;
+  justify-content: flex-end;
   list-style-type: none;
   margin: 0;
   padding: 0 2em 0 0;
   overflow: hidden;
-  background-color: #333;
-}
-
-li {
-  float: right;
+  background-color: white;
 }
 
 li a {
-  font-family: 'Lato';
+  font-family: 'Montserrat', sans-serif;
   display: block;
-  color: white;
-  transition: all 0.4s ease;
-  background-color: #333333;
+  color: black;
+  transition: color 1s ease;
   text-align: center;
-  padding: 25px 16px;
+  padding: 20px 16px;
   text-decoration: none;
 }
 
 li a:hover{
-  background-color: #1F1F1F;
   color: #32ffb1;
 }
 .contact{
@@ -125,14 +124,9 @@ li a:hover{
 
 .company{
   width:30%;
-  //height:380px;
   display:inline-block;
   background-color:#f2f2f2;
-  // border: 3px solid #333333;
-  // border-radius: 3px;
-  //margin:10px;
   margin: 1em 0.3em 1em 0.3em;
-  // box-shadow: 1px 1px 1px #888888;
 }
 
 .picwork {
@@ -279,7 +273,7 @@ margin: 2em;
   color: #ffffff;
   display: flex;
   justify-content: center;
-  height: 250px;
+  height: 230px;
   width:100%;
   background-color: #333333;
 }
