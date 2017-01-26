@@ -100,7 +100,7 @@ li a {
   font-family: 'Montserrat', sans-serif;
   display: block;
   color: black;
-  transition: all 0.4s ease;
+  transition: color 1s ease;
   text-align: center;
   padding: 20px 16px;
   text-decoration: none; }
@@ -267,7 +267,7 @@ li a:hover {
   color: #ffffff;
   display: flex;
   justify-content: center;
-  height: 250px;
+  height: 230px;
   width: 100%;
   background-color: #333333; }
 
@@ -426,8 +426,7 @@ li a:hover {
     display: none; } }
 @media screen and (min-device-width: 667px) {
   .footer {
-    flex-direction: row;
-    height: 200px; }
+    flex-direction: row; }
 
   .foot-contact {
     width: 25%;
