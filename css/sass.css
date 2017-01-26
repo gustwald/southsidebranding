@@ -245,7 +245,6 @@ li a:hover {
 .gustav {
   background-image: url("../img/gustav.jpg");
   background-size: cover;
-  background-size: cover;
   border-radius: 200px;
   height: 390px;
   width: 265px;
@@ -363,19 +362,23 @@ li a:hover {
 
   .footer {
     flex-direction: column;
-    height: 25em; }
+    height: 30em; }
 
   .foot-contact {
     margin: 2em 0 0 10%;
     height: 7em;
     justify-content: space-between; }
 
+  .footer-text {
+    margin: 0.7em 0 0 0;
+    font-size: 2em; }
+
   .media-links {
     margin-left: 10%;
-    margin-top: 35px !important; }
+    margin-top: 8em !important; }
 
   .media-links img {
-    width: 2em;
+    width: 4em;
     margin-right: 1em; }
 
   .workcontainer {

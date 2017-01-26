@@ -87,7 +87,7 @@ and (orientation: portrait) {
 
 	.footer{
 		flex-direction: column;
-		height: 25em;
+		height: 30em;
 	}
 
 	.foot-contact{
@@ -96,13 +96,18 @@ and (orientation: portrait) {
 		justify-content: space-between;
 	}
 
+	.footer-text{
+		margin: 0.7em 0 0 0;
+		font-size: 2em;
+	}
+
 	.media-links{
 		margin-left: 10%;
-		margin-top: 35px !important;
+		margin-top: 8em !important;
 	}
 
 	.media-links img{
-		width: 2em;
+		width: 4em;
 		margin-right: 1em;
 	}
 
