@@ -100,13 +100,12 @@ li a {
   font-family: 'Montserrat', sans-serif;
   display: block;
   color: black;
-  transition: all 0.4s ease;
+  transition: color 1s ease;
   text-align: center;
   padding: 20px 16px;
   text-decoration: none; }
 
 li a:hover {
-  background-color: #F9F9F9;
   color: #32ffb1; }
 
 .contact {
@@ -146,6 +145,12 @@ li a:hover {
   background-image: url("../img/zxfluxlol2.jpg");
   background-repeat: no-repeat;
   background-size: 600px 240px; }
+
+.snow:hover,
+.doja:hover,
+.adid:hover {
+  transition: all 0.5s ease;
+  opacity: 0.5; }
 
 .mike {
   background-image: url("../img/snow.png");
