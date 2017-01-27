@@ -36,8 +36,11 @@ html {
   width: 100%; }
 
 .logo {
-  height: 5%;
-  width: 5%; }
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  left: 0px;
+  top: 5px; }
 
 hr {
   margin: 6em 20% 0 20%;
@@ -303,12 +306,11 @@ li a:hover {
     display: none; }
 
   .martin {
-    width: 25em;
-    height: 35em;
     margin: 0 auto;
     text-align: center;
     margin-bottom: 1em;
-    margin-top: 2em; }
+    margin-top: 5em;
+    height: 300px; }
 
   .liam {
     margin: 0 auto;

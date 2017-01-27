@@ -39,10 +39,12 @@ html{
 }
 
 .logo{
-  height: 5%;
-  width: 5%;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  left: 0px;
+  top: 5px;
 }
-
 
 hr{
   margin: 6em 20% 0 20%;
