@@ -271,6 +271,18 @@ li a:hover {
   width: 100%;
   position: relative; }
 
+.noscript-map {
+  width: 100%;
+  height: 400px;
+  background-image: url("../img/karta.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.noscript-text {
+  font-size: 28px;
+  font-weight: bold;
+  color: red; }
+
 .footer {
   color: #ffffff;
   display: flex;
