@@ -90,7 +90,9 @@ h2 {
   color: black; }
 
 ul {
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: end;
   justify-content: flex-end;
   list-style-type: none;
   margin: 0;
@@ -120,8 +122,11 @@ li a:hover {
   width: 100%; }
 
 .workcontainer {
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: center;
   justify-content: center;
+  -ms-flex-direction: row;
   flex-direction: row; }
 
 .company {
@@ -147,12 +152,6 @@ li a:hover {
   background-image: url("../img/zxfluxlol2.jpg");
   background-repeat: no-repeat;
   background-size: 600px 240px; }
-
-.snow:hover,
-.doja:hover,
-.adid:hover {
-  transition: all 0.5s ease;
-  opacity: 0.5; }
 
 .mike {
   background-image: url("../img/snow.png");
@@ -209,23 +208,18 @@ li a:hover {
   -webkit-animation: bounce 2s infinite;
   transform: rotateX(90deg); }
 
-@-webkit-keyframes bounce {
-  0%, 20%, 60%, 100% {
-    -webkit-transform: translateY(0); }
-  40% {
-    -webkit-transform: translateY(-20px); }
-  80% {
-    -webkit-transform: translateY(-10px); } }
 .container-contact {
-  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: center;
   justify-content: center;
   width: 100%;
   height: 450px; }
 
 .info-container {
-  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: center;
   justify-content: center;
   width: 100%;
   height: 200px; }
@@ -285,7 +279,9 @@ li a:hover {
 
 .footer {
   color: #ffffff;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: center;
   justify-content: center;
   height: 230px;
   width: 100%;
@@ -300,10 +296,13 @@ li a:hover {
   font-size: 42px; }
 
 .foot-contact {
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-direction: column;
   flex-direction: column; }
 
 .media-links {
+  display: -ms-flexbox;
   display: flex;
   margin-top: 5em; }
 
@@ -339,7 +338,9 @@ li a:hover {
 
   .container-contact {
     height: auto;
+    -ms-flex-pack: justify;
     justify-content: space-between;
+    -ms-flex-direction: column;
     flex-direction: column; }
 
   .logo {
@@ -373,7 +374,9 @@ li a:hover {
     text-align: center; }
 
   .navigation {
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-pack: center;
     justify-content: center; }
 
   .contact {
@@ -384,12 +387,14 @@ li a:hover {
     color: #333; }
 
   .footer {
+    -ms-flex-direction: column;
     flex-direction: column;
     height: 30em; }
 
   .foot-contact {
     margin: 2em 0 0 10%;
     height: 7em;
+    -ms-flex-pack: justify;
     justify-content: space-between; }
 
   .footer-text {
@@ -405,6 +410,7 @@ li a:hover {
     margin-right: 1em; }
 
   .workcontainer {
+    -ms-flex-direction: column;
     flex-direction: column;
     display: block;
     margin: 0 auto;
@@ -449,6 +455,7 @@ li a:hover {
     display: none; } }
 @media screen and (min-device-width: 667px) {
   .footer {
+    -ms-flex-direction: row;
     flex-direction: row; }
 
   .foot-contact {
@@ -458,6 +465,7 @@ li a:hover {
   .media-links {
     width: 25%;
     margin: -3em 20em 0 1em;
+    -ms-flex-direction: row;
     flex-direction: row; }
 
   .media-links img {
