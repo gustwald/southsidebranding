@@ -36,8 +36,10 @@ and (orientation: portrait) {
 
 	.container-contact{
 		height: auto;
-		justify-content: space-between;
-		flex-direction: column;
+		-ms-flex-pack: justify;
+		    justify-content: space-between;
+		-ms-flex-direction: column;
+		    flex-direction: column;
 	}
 
 	.logo{
@@ -76,8 +78,10 @@ and (orientation: portrait) {
 	}
 
 	.navigation{
+		display: -ms-flexbox;
 		display: flex;
-		justify-content: center;
+		-ms-flex-pack: center;
+		    justify-content: center;
 	}
 
 	.contact{
@@ -90,14 +94,16 @@ and (orientation: portrait) {
 	}
 
 	.footer{
-		flex-direction: column;
+		-ms-flex-direction: column;
+		    flex-direction: column;
 		height: 30em;
 	}
 
 	.foot-contact{
 		margin: 2em 0 0 10%;
 		height: 7em;
-		justify-content: space-between;
+		-ms-flex-pack: justify;
+		    justify-content: space-between;
 	}
 
 	.footer-text{
@@ -117,7 +123,8 @@ and (orientation: portrait) {
 
 	//Work section
 	.workcontainer {
-		flex-direction:column;
+		-ms-flex-direction:column;
+		    flex-direction:column;
 		display:block;
 		margin:0 auto;
 		text-align:center;
@@ -174,7 +181,8 @@ and (orientation: portrait) {
 @media screen  and (min-device-width: 667px){
 
 	.footer{
-		flex-direction: row;
+		-ms-flex-direction: row;
+		    flex-direction: row;
 	}
 
 	.foot-contact{
@@ -185,7 +193,8 @@ and (orientation: portrait) {
 	.media-links{
 		width: 25%;
 		margin: -3em 20em 0 1em;
-		flex-direction: row;
+		-ms-flex-direction: row;
+		    flex-direction: row;
 	}
 
 	.media-links img{
